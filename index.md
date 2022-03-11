@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: content
 title: Home
+description:
 ---
 
 Index Page
