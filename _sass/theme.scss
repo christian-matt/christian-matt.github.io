@@ -1,11 +1,38 @@
 
+$content-width: 75%;
+
+* {
+  font-family: Helvetica, Georgia, serif ;
+}
+
+.navbar {
+  background-color: white;
+  width: $content-width;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+hr {
+  width: 10%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.rounded-circle {
+  width: 170px;
+}
+
+.page-heading {
+  text-align: center;
+}
+
 .page-content {
   margin: 0 auto;
-  width: 50%;
+  width: $content-width !important;
 }
 
 .link {
-  color: black !important;
+  color:  #6c757d !important;
 }
 
 @import "bootstrap/bootstrap";

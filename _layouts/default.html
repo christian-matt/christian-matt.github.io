@@ -12,12 +12,16 @@
 
     {%- include navbar.html -%}
 
-    <main class="page-content mt-3" aria-label="Content">
+    <main class="page-content mt-5" aria-label="Content">
         <div class="container-fluid col-md-12">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="content">
-                        <h3>{{ page.title }}</h3>
+                        <div class="text-center">
+                            <img src="/assets/images/example.png" class="rounded-circle" alt="example">
+                        </div>
+                        <h3 class="page-heading mt-5">{{ page.title }}</h3>
+                        <hr>
                         {{content}}
                     </div>
                 </div>
