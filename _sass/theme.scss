@@ -1,15 +1,20 @@
 
 $content-width: 75%;
+$social-footer-padding: 35px;
+$navbar-toggler-margin: 20px;
 
 * {
   font-family: Helvetica, Georgia, serif ;
 }
 
-.navbar {
-  background-color: white;
+/*.navbar {
   width: $content-width;
   margin-left: auto !important;
   margin-right: auto !important;
+}*/
+
+.navbar-toggler {
+  margin-right: $navbar-toggler-margin;
 }
 
 hr {
@@ -33,6 +38,40 @@ hr {
 
 .link {
   color:  #6c757d !important;
+}
+
+#social-footer{
+  padding-top: $social-footer-padding;
+  padding-bottom: $social-footer-padding;
+  text-align: center;
+}
+
+#author {
+  display: inline;
+  text-align: left;
+}
+
+#footer-links {
+  float: right;
+  display: inline;
+}
+
+@media (min-width: 992px) {
+  .navbar-center {
+    position: relative;
+    right: 85px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-center {
+    text-align: center !important;
+  }
+
+  .navbar-brand {
+    position: relative;
+    left: 28px + $navbar-toggler-margin;
+  }
 }
 
 @import "bootstrap/bootstrap";
