@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Legal Notice
-description:
+description: This is the legal notice of christianmatt.com.
 ---
 Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:
 
