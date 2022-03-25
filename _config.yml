@@ -75,6 +75,7 @@ plugins:
 # Stylesheet settings (sass)
 sass:
   sass_dir: _sass
+  style: compressed
 
 
 # Exclude from processing.
