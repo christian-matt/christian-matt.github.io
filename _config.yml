@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Christian Matt's Homepage
+title: Christian Matt
 
 description:
   >- 
@@ -31,16 +31,46 @@ url: "https://christianmatt.com" # the base hostname & protocol for your site, e
 
 github_username: christian-matt
 
+# seo information
+twitter:
+  card: summary
+
+logo: assets/images/icons/favicon.ico
+
+social:
+  name: Christian Matt
+  links:
+    - https://www.researchgate.net/profile/Christian-Matt
+    - https://www.xing.com/profile/Christian_Matt
+    - https://www.linkedin.com/in/christianmatt/
+    - https://www.iwi.unibe.ch/about_us/people/prof_dr_matt_christian/index_eng.html
+    - https://scholar.google.com/citations?user=HSsnJNgAAAAJ&hl=en&oi=ao
+
 author:
   name: Christian Matt
   url: https://christianmatt.com
+
+seo:
+  type: Person
+  links:
+    - https://www.researchgate.net/profile/Christian-Matt
+    - https://www.xing.com/profile/Christian_Matt
+    - https://www.linkedin.com/in/christianmatt/
+    - https://www.iwi.unibe.ch/about_us/people/prof_dr_matt_christian/index_eng.html
+    - https://scholar.google.com/citations?user=HSsnJNgAAAAJ&hl=en&oi=ao
+
+# sitemap adjustments
+defaults:
+  scope:
+    path: http://localhost:4000/assets/css/bootstrap-icons/*
+    values:
+      sitemap: false
 
 # Build settings
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-
 
 # Stylesheet settings (sass)
 sass:
@@ -67,4 +97,4 @@ exclude:
 #   - vendor/gems/
 #   - vendor/ruby/
   - README.md
-  - design.svg
+  - /.idea/

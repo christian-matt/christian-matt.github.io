@@ -74,4 +74,19 @@ hr {
   }
 }
 
+@media (max-width: 360px) {
+  #author {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+
+  #footer-links {
+    display: block;
+    float: none;
+    margin: auto;
+    text-align: center;
+  }
+}
+
 @import "bootstrap/bootstrap";
