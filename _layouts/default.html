@@ -3,6 +3,18 @@
 <head>
     {%- include header.html -%}
     {% seo %}
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "{{ page.title }}",
+                "item": "{{ site.url }}{{ page.url }}"
+            }]
+        }
+    </script>
 </head>
 
 <body>
@@ -10,7 +22,7 @@
 
     {%- include navbar.html -%}
 
-    <main class="page-content mt-5" aria-label="Content">
+    <main class="page-content my-5" aria-label="Content">
         <div class="container-fluid col-md-12">
             <div class="row">
                 <div class="col-xl-12">

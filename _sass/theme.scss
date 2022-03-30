@@ -1,17 +1,13 @@
 
 $content-width: 75%;
+$content-width-medium-screen: 85%;
+$content-width-small-screen: 90%;
 $social-footer-padding: 35px;
 $navbar-toggler-margin: 20px;
 
 * {
   font-family: Helvetica, Georgia, serif ;
 }
-
-/*.navbar {
-  width: $content-width;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}*/
 
 .navbar-toggler {
   margin-right: $navbar-toggler-margin;
@@ -40,6 +36,13 @@ hr {
   color:  #6c757d !important;
 }
 
+.social-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
 #social-footer{
   padding-top: $social-footer-padding;
   padding-bottom: $social-footer-padding;
@@ -56,10 +59,20 @@ hr {
   display: inline;
 }
 
+#map {
+  height: 400px;
+  width: 100%;
+  margin-top: 20px;
+}
+
 @media (min-width: 992px) {
   .navbar-center {
     position: relative;
     right: 85px;
+  }
+
+  #map {
+    margin-top: 0;
   }
 }
 
@@ -71,6 +84,10 @@ hr {
   .navbar-brand {
     position: relative;
     left: 28px + $navbar-toggler-margin;
+  }
+
+  .page-content {
+    width: $content-width-medium-screen !important;
   }
 }
 
@@ -86,6 +103,10 @@ hr {
     float: none;
     margin: auto;
     text-align: center;
+  }
+
+  .page-content {
+    width: $content-width-small-screen !important;
   }
 }
 

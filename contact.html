@@ -1,0 +1,42 @@
+---
+layout: default
+title: Contact
+description: Get in touch today with Christian Matt and connect here or via social media.
+---
+
+<div class="row">
+    <div class="col-lg-4">
+        <ul class="list list-unstyled">
+            <li class="list-item">Institute of Information Systems (IWI)</li>
+            <li class="list-item">Engehaldenstrasse 8</li>
+            <li class="list-item">CH-3012 Bern</li>
+            <li class="list-item">Switzerland</li>
+        </ul>
+        <i class="bi bi-telephone"> <a href="tel:+41 31 684 49 67">+41 31 684 49 67</a></i>
+        <br>
+        <i class="bi bi-envelope"> <a href="mailto:christian.matt@iwi.unibe.ch">christian.matt@iwi.unibe.ch</a></i>
+    </div>
+    <div class="col-lg-8">
+        <div id="map"></div>
+    </div>
+</div>
+
+<script
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzHoHbuFD_qMabYDGgrTjbGjTohBBueHI&callback=initMap&v=weekly"
+  async
+></script>
+<script>
+    function initMap() {
+        const uluru = { lat: 46.95394356354953, lng: 7.439727019834489 };
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 15.5,
+            center: uluru,
+            mapTypeId: 'hybrid'
+        });
+        // marker, positioned at Uluru
+        const marker = new google.maps.Marker({
+            position: uluru,
+            map: map,
+        });
+    }
+</script>
