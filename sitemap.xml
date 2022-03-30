@@ -3,24 +3,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/contact.html</loc>
+<loc>https://christianmatt.com/contact.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>https://christianmatt.com/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/industry_practice.html</loc>
+<loc>https://christianmatt.com/industry_practice.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/legal.html</loc>
+<loc>https://christianmatt.com/legal.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/research.html</loc>
+<loc>https://christianmatt.com/research.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/speaker.html</loc>
+<loc>https://christianmatt.com/speaker.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/teaching.html</loc>
+<loc>https://christianmatt.com/teaching.html</loc>
 </url>
 </urlset>
