@@ -17,26 +17,6 @@ description: Get in touch today with Christian Matt and connect here or via soci
         <i class="bi bi-envelope"> <a href="mailto:christian.matt@iwi.unibe.ch">christian.matt@iwi.unibe.ch</a></i>
     </div>
     <div class="col-lg-8">
-        <div id="map"></div>
+        <iframe src="https://maps.google.com/maps?q=Engehaldestrasse%208&amp;t=k&amp;z=16&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="map"></iframe>
     </div>
 </div>
-
-<script
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzHoHbuFD_qMabYDGgrTjbGjTohBBueHI&callback=initMap&v=weekly"
-  async
-></script>
-<script>
-    function initMap() {
-        const uluru = { lat: 46.95394356354953, lng: 7.439727019834489 };
-        const map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 15.5,
-            center: uluru,
-            mapTypeId: 'hybrid'
-        });
-        // marker, positioned at Uluru
-        const marker = new google.maps.Marker({
-            position: uluru,
-            map: map,
-        });
-    }
-</script>
