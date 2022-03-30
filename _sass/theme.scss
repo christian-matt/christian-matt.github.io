@@ -3,6 +3,7 @@ $content-width: 75%;
 $content-width-medium-screen: 85%;
 $content-width-small-screen: 90%;
 $social-footer-padding: 35px;
+$social-icon-margin: 12px;
 $navbar-toggler-margin: 20px;
 
 * {
@@ -32,15 +33,19 @@ hr {
   width: $content-width !important;
 }
 
-.link {
+a.link {
+  color:  black !important;
+}
+
+a.footer.link {
   color:  #6c757d !important;
 }
 
 .social-icon {
   width: 40px;
   height: 40px;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: $social-icon-margin;
+  margin-left: $social-icon-margin;
 }
 
 #social-footer{
@@ -60,7 +65,7 @@ hr {
 }
 
 #map {
-  height: 400px;
+  height: 350px;
   width: 100%;
   margin-top: 20px;
 }
@@ -91,7 +96,7 @@ hr {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 465px) {
   #author {
     display: block;
     margin: auto;
