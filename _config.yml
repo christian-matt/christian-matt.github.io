@@ -21,9 +21,11 @@
 title: Christian Matt
 
 description:
-  >- 
-  Christian Matt is Professor and Co-director of the Institute of Information Systems at the University of Bern.
-  As an expert for digital transformation and artificial intelligence
+  >-
+  Christian Matt is Professor and Co-director of the Institute of Information Systems at the University of Bern. 
+  As an expert for Digital Transformation, Digital Business and Responsible Artificial Intelligence he is fascinated by 
+  how digital technologies lead to new opportunities and paradigm shifts for firms, public organisations, society and 
+  individuals. He shares his expertise in consulting, workshops, executive education, and as a keynote speaker.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 
@@ -34,8 +36,6 @@ github_username: christian-matt
 # seo information
 twitter:
   card: summary
-
-logo: assets/images/icons/favicon.ico
 
 social:
   name: Christian Matt
@@ -59,18 +59,11 @@ seo:
     - https://www.iwi.unibe.ch/about_us/people/prof_dr_matt_christian/index_eng.html
     - https://scholar.google.com/citations?user=HSsnJNgAAAAJ&hl=en&oi=ao
 
-# sitemap adjustments
-defaults:
-  scope:
-    path: http://localhost:4000/assets/css/bootstrap-icons/*
-    values:
-      sitemap: false
-
 # Build settings
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
+#  - jekyll-sitemap
 
 # Stylesheet settings (sass)
 sass:
