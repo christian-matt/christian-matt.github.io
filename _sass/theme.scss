@@ -14,6 +14,10 @@ $navbar-toggler-margin: 20px;
   margin-right: $navbar-toggler-margin;
 }
 
+.navbar-brand {
+  font-size: 1.5rem !important;
+}
+
 hr {
   width: 10%;
   margin-left: auto !important;
@@ -21,7 +25,8 @@ hr {
 }
 
 .rounded-circle {
-  width: 170px;
+  height: 130px;
+  width: 180px;
 }
 
 .page-heading {
