@@ -1,15 +1,13 @@
 # [christianmatt.com](https://christianmatt.com)
 
-### Dependencies
-
-The following frameworks/packages/modules are used:
+### Frameworks
 
 | Name                                                                         | License | Version |
 |------------------------------------------------------------------------------|---------|---------|
 | [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) | MIT     | 5       |
 | [Jekyll](https://jekyllrb.com/)                                              | MIT     | 4       |
 
-#### Photos and Icons
+### Photos and Icons
 
 | Name                                               | License                                                                  | Annotations                          |
 |:---------------------------------------------------|:-------------------------------------------------------------------------|:-------------------------------------|
