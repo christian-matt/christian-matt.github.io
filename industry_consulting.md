@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Industry and Practice
+title: Industry and Consulting
 keywords: Consulting, Research Projects, Workshops, Digital Transformation, Digital Business, Artificial Intelligence
 description: Professional consulting, coaching and workshops on Digital Transformation, Digital Businesses, and Artificial Intelligence.
 image: industry.jpg
