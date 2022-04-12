@@ -17,7 +17,8 @@ $padding-link-icon: 3px;
 }
 
 .navbar-brand {
-  font-size: 1.5rem !important;
+  font-size: 1.4rem !important;
+  font-weight: bold;
 }
 
 hr {
@@ -32,8 +33,12 @@ hr {
   border-radius: 10px !important;
 }
 
-.page-heading {
-  text-align: center;
+.h1 {
+  text-align: center !important;
+}
+
+.h2 {
+  font-size: 1.5rem !important;
 }
 
 .page-content {
