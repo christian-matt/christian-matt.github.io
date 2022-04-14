@@ -1,0 +1,148 @@
+
+$content-width: 65%;
+$content-width-medium-screen: 85%;
+$content-width-small-screen: 98%;
+$social-footer-padding: 35px;
+$social-icon-margin: 12px;
+$navbar-toggler-margin: 20px;
+$font-size: 1.1rem;
+$font-size-link-icon: 0.8 * $font-size;
+$padding-link-icon: 3px;
+
+* {
+  font-family: Helvetica, Georgia, serif;
+  font-size: $font-size;
+}
+
+.navbar-toggler {
+  margin-right: $navbar-toggler-margin;
+}
+
+.navbar-brand {
+  font-size: 1.4rem !important;
+  font-weight: bold;
+}
+
+hr {
+  width: 15%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.rounded-circle {
+  height: 197px;
+  width: 246px;
+  border-radius: 10px !important;
+}
+
+// remove with pushed default
+.page-heading {
+  text-align: center !important;
+}
+
+.h1 {
+  text-align: center !important;
+}
+
+.h2 {
+  font-size: 1.5rem !important;
+}
+
+.page-content {
+  margin: 0 auto;
+  width: $content-width !important;
+}
+
+a.link {
+  color:  black !important;
+}
+
+a.footer.link {
+  color:  #6c757d !important;
+}
+
+.icon {
+  padding-left: $padding-link-icon;
+  font-size: $font-size-link-icon;
+}
+
+.icon-contact {
+  padding-right: $padding-link-icon;
+  font-size: $font-size-link-icon;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: $social-icon-margin;
+  margin-left: $social-icon-margin;
+}
+
+#social-footer{
+  padding-top: $social-footer-padding;
+  padding-bottom: $social-footer-padding;
+  text-align: center;
+}
+
+#author {
+  display: inline;
+  text-align: left;
+}
+
+#footer-links {
+  float: right;
+  display: inline;
+}
+
+#map {
+  height: 350px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+@media (min-width: 992px) {
+  .navbar-center {
+    position: relative;
+    right: 85px;
+  }
+
+  #map {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-center {
+    text-align: center !important;
+  }
+
+  .navbar-brand {
+    position: relative;
+    left: 28px + $navbar-toggler-margin;
+  }
+
+  .page-content {
+    width: $content-width-medium-screen !important;
+  }
+}
+
+@media (max-width: 465px) {
+  #author {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+
+  #footer-links {
+    display: block;
+    float: none;
+    margin: auto;
+    text-align: center;
+  }
+
+  .page-content {
+    width: $content-width-small-screen !important;
+  }
+}
+
+@import "bootstrap/bootstrap";
