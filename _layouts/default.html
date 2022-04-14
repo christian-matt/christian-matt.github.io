@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     {%- include header.html -%}
+
+    <meta name="keywords" content="{{page.keywords}}">
+
     {% seo %}
     <script type="application/ld+json">
         {
@@ -22,17 +25,19 @@
 
     {%- include navbar.html -%}
 
-    <main class="page-content my-5" aria-label="Content">
+    <main class="page-content my-3" aria-label="Content">
         <div class="container-fluid col-md-12">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="content">
                         <div class="text-center">
-                            <img src="/assets/images/example.png" class="rounded-circle" alt="example">
+                            {% if page.image != "None" %}
+                                <img src="/assets/images/Photos/{{ page.image }}" class="rounded-circle" alt="{{ page.title }}">
+                            {% endif %}
                         </div>
-                        <h1 class="page-heading mt-5">{{ page.title }}</h1>
+                        <h1 class="h1 mt-3">{{ page.title }}</h1>
                         <hr>
-                        {{content}}
+                        {{ content }}
                     </div>
                 </div>
             </div>
@@ -42,6 +47,8 @@
     {%- include footer.html -%}
 
 </div>
+
     {%- include scripts.html -%}
+
 </body>
 </html>
