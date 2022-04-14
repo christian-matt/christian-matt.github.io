@@ -34,5 +34,4 @@ at the University of Bern, he also supports the digital transformation in the le
 - Weiler, S.; Matt, C.; Hess, T. (2021): Immunizing with Information – Inoculation Messages Against Conversational Agents’ Response Failures, <i>Electronic Markets</i>, (forthcoming)<script>getDOILink('10.1007/s12525-021-00509-9')</script>.
 - Lüthi, N.; Matt, C.; Myrach, T. (2021): A Value-Sensitive Design Approach to Minimize Value Tensions in Software-based Risk-Assessment Instruments, <i>Journal of Decision Systems</i> (30:2-3), pp. 194-214<script>getDOILink('10.1080/12460125.2020.1859744')</script>.
 
-
-
+More information: <script>getExternalLink('Institute of Information Systems - Prof. Dr. Christian Matt', 'https://www.iwi.unibe.ch/about_us/people/prof_dr_matt_christian/index_eng.html')</script>
