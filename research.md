@@ -7,28 +7,28 @@ image: research.webp
 ---
 
 Christian Matt’s research focuses on the Digital Transformation of firms and society, digital user experiences, as well 
-as on the design of responsible AI-based services. His research projects often pursue empirical, interdisciplinary approaches
-to cover socio-technical effects that digital technologies and data-based services have on firms and society alike. His
-<script>getExternalLink('publications', 'https://www.iwi.unibe.ch/ueber_uns/personen/prof_dr_matt_christian/index_ger.html#pane500369')</script>
-have appeared in a wide variety of internationally renowned journals as well as magazines for practitioners.
+as on the design of responsible AI-based services. His research projects often pursue empirical, interdisciplinary 
+approaches to cover socio-technical effects that digital technologies and data-based services have on firms and society 
+alike. Christian Matt has been responsible for a number of large research projects, and as a member of the research group
+<script>getExternalLink('Law and Digitalization', 'https://www.digitallaw.unibe.ch/index_eng.html')</script> at the University of Bern, he also supports the digital transformation in the legal field.
 
-He has been responsible for a number of large research projects, and as a member of the research group
-<script>getExternalLink('Law and Digitalization', 'https://www.digitallaw.unibe.ch/index_eng.html')</script>
-at the University of Bern, he also supports the digital transformation in the legal field.
+His <script>getExternalLink('publications', 'https://www.iwi.unibe.ch/ueber_uns/personen/prof_dr_matt_christian/index_ger.html#pane500369')</script>
+have appeared in a wide variety of internationally renowned journals as well as magazines for practitioners. 
+Selected publications include:
 
-<h2 class="h2">Digital Transformation of Firms and Society</h2>
+<h2 class="h2">1. Digital Transformation of Firms and Society</h2>
 
 - Turel, O.; Matt, C.; Trenz, M.; Cheung, CMK. (2020): An Intertwined Perspective on Technology and Digitised Individuals: Linkages, Needs and Outcomes, <i>Information Systems Journal</i> (30:6), pp. 929-939<script>getDOILink('10.1111/isj.12304')</script>.
 - Hess, T.; Matt, C.; Benlian, A.; Wiesböck, F. (2016): Options for Formulating a Digital Transformation Strategy, <i>MIS Quarterly Executive</i> (15:2), pp. 103-119.
 - Matt, C.; Hess, T.; Benlian, A. (2015): Digital Transformation Strategies,<i> Business & Information Systems Engineering</i> (57:5), pp. 339-343<script>getDOILink('10.1007/s12599-015-0401-5')</script>.
 
-<h2 class="h2">Digital User Experiences</h2>
+<h2 class="h2">2. Digital User Experiences</h2>
 
-- Bründl, S.; Matt, C.; Hess, T.; Engert, S. (2022): How Synchronous Participation Affects the Willingness to Subscribe to Social Live Streaming Services: The Role of Co-Interactive Behavior on Twitch, <i>European Journal of Information Systems</i> (forthcoming).
+- Bründl, S.; Matt, C.; Hess, T.; Engert, S. (2022): How Synchronous Participation Affects the Willingness to Subscribe to Social Live Streaming Services: The Role of Co-Interactive Behavior on Twitch, <i>European Journal of Information Systems</i> (forthcoming)<script>getDOILink('10.1080/0960085X.2022.2062468')</script>.
 - Clemons, E.K.; Wilson, J.; Matt, C.; Hess, T.; Ren, F.; Jin, F. (2016): Global Differences in Online Shopping Behavior: Understanding the Factors that Lead to Trust, <i>Journal of Management Information Systems</i> (33:4), pp. 1117-1148<script>getDOILink('10.1080/07421222.2016.1267531')</script>.
 - Berger, B.; Matt, C.; Steininger, D. M.; Hess, T. (2015): It Is Not Just About Competition with “Free”: Differences Between Content Formats in Consumer Preferences and Willingness to Pay, <i>Journal of Management Information Systems</i> (32:3), pp. 105-128<script>getDOILink('10.1080/07421222.2015.1095038')</script>.
 
-<h2 class="h2">Design of Responsible AI-based Services</h2>
+<h2 class="h2">3. Design of Responsible AI-based Services</h2>
 
 - Lüthi, N.; Matt, C.; Myrach, T. (2022): Wertbasiertes Design von Entscheidungsunterstützungssystemen - Von der Wertetabelle zur praktischen Umsetzung, <i>HMD Praxis der Wirtschaftsinformatik</i>, (forthcoming)<script>getDOILink('10.1365/s40702-022-00845-0')</script>.
 - Weiler, S.; Matt, C.; Hess, T. (2021): Immunizing with Information – Inoculation Messages Against Conversational Agents’ Response Failures, <i>Electronic Markets</i>, (forthcoming)<script>getDOILink('10.1007/s12525-021-00509-9')</script>.

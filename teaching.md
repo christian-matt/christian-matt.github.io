@@ -7,8 +7,9 @@ image: teaching.webp
 ---
 
 Christian Matt teaches in the fields of Digital Transformation, Digital Business, Artificial Intelligence, 
-as well as Digital Business Models at Bachelor, Master, and PhD-level. He has held teaching appointments at EM Lyon, 
-Lancaster Business School, LMU Munich, and TU Darmstadt.
+as well as Digital Business Models at Bachelor, Master, and PhD-level. 
+
+He has held teaching appointments at EM Lyon, Lancaster Business School, LMU Munich, and TU Darmstadt.
 
 He serves as module lead in the executive education programs <script>getExternalLink('CAS Digital Transformation', 'https://www.unibe.ch/weiterbildungsangebote/cas_digital_transformation/index_ger.html')</script>
 and <script>getExternalLink('CAS Tourism and Digitalization', 'https://www.unibe.ch/weiterbildungsangebote/cas_tourismus_und_digitalisierung/index_ger.html')</script>
