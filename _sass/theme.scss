@@ -1,6 +1,7 @@
 $font-size: 1.1rem;
 $font-size-publications: $font-size * 0.8;
-$font-size-link-icon: 0.7 * $font-size;
+$font-size-icon-multiplier: 0.6;
+$font-size-link-icon: $font-size * $font-size-icon-multiplier;
 
 $content-width-ultra-large-screen: 38%;
 $content-width-extra-large-screen: 45%;
@@ -100,6 +101,19 @@ a.footer.link:hover {
   height: 40px;
   margin-right: $social-icon-margin;
   margin-left: $social-icon-margin;
+}
+
+.publication-item {
+  font-size: $font-size-publications;
+}
+
+a.publication-item {
+  font-size: $font-size-publications;
+  color: black;
+}
+
+a.publication-item:hover {
+  color: $link-hover-color;
 }
 
 #social-footer{
@@ -245,19 +259,6 @@ a.footer.link:hover {
   .page-content {
     width: $content-width-ultra-large-screen*0.9 !important;
   }
-}
-
-.publication-item {
-  font-size: $font-size-publications;
-}
-
-a.publication-item {
-  font-size: $font-size-publications;
-  color: black;
-}
-
-a.publication-item:hover {
-  color: $link-hover-color;
 }
 
 @import "bootstrap/bootstrap";
