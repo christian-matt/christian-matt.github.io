@@ -6,7 +6,7 @@ $content-width-extra-large-screen: 45%;
 $content-width-large-screen: 55%;
 $content-width: 65%;
 $content-width-medium-screen: 85%;
-$content-width-small-screen: 98%;
+$content-width-small-screen: 96%;
 
 $image-height: 197px;
 $image-height-large-screen: 250px;
@@ -113,6 +113,15 @@ a.footer.link {
 }
 
 @media screen and (max-width: 465px) {
+  .navbar-center {
+    text-align: center !important;
+  }
+
+  .navbar-brand {
+    position: relative;
+    left: 28px + $navbar-toggler-margin;
+  }
+
   #author {
     display: block;
     margin: auto;
@@ -131,7 +140,7 @@ a.footer.link {
   }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 465px) and (max-width: 991px) {
   .navbar-center {
     text-align: center !important;
   }
