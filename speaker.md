@@ -7,11 +7,10 @@ image: speaker.webp
 ---
 
 As a keynote speaker for academic and practice-oriented conferences, as well as for corporate events, Christian Matt presents
-scientifically grounded, and directly applicable insights in an engaging manner. Exemplary topics include, but are not limited to
-, recent trends and insights on:
+scientifically grounded, and directly applicable insights in an engaging manner. Exemplary topics include, but are not limited to, recent trends and insights on:
 
 - Digital Transformation
 - Digital Business
 - Artificial Intelligence
 
-The talks are either in English or German, and can be combined with interactive elements, such as subsequent workshops.
+The talks are either in English or German, and can be combined with interactive elements, such as integrated workshops.
