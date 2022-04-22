@@ -1,4 +1,5 @@
 $font-size: 1.1rem;
+$font-size-publications: $font-size * 0.8;
 $font-size-link-icon: 0.7 * $font-size;
 
 $content-width-ultra-large-screen: 38%;
@@ -9,13 +10,15 @@ $content-width-medium-screen: 85%;
 $content-width-small-screen: 96%;
 
 $image-height: 197px;
-$image-height-large-screen: 250px;
-$image-height-extra-large-screen: 300px;
-$image-height-ultra-large-screen: 380px;
+$image-height-large-screen: 240px;
+$image-height-extra-large-screen: 280px;
+$image-height-ultra-large-screen: 300px;
 
 $padding-link-icon: 3px;
 $social-footer-padding: 35px;
 $social-icon-margin: 12px;
+
+$link-hover-color: #6c757d;
 
 $navbar-toggler-margin: 20px;
 $margin-header-image: 10px;
@@ -25,7 +28,8 @@ $margin-header-image-large-screen: 15px;
 * {
   font-family: Helvetica, Georgia, serif;
   font-size: $font-size;
-  hyphens: auto;
+  text-align: justify;
+  hyphens: manual;
 }
 
 .navbar-toggler {
@@ -67,8 +71,16 @@ a.link {
   color:  black !important;
 }
 
+a.link:hover {
+  color: $link-hover-color !important;
+}
+
 a.footer.link {
-  color:  #6c757d !important;
+  color: $link-hover-color !important;
+}
+
+a.footer.link:hover {
+  color: rgb(172, 175, 178) !important;
 }
 
 .icon-link {
@@ -233,6 +245,19 @@ a.footer.link {
   .page-content {
     width: $content-width-ultra-large-screen*0.9 !important;
   }
+}
+
+.publication-item {
+  font-size: $font-size-publications;
+}
+
+a.publication-item {
+  font-size: $font-size-publications;
+  color: black;
+}
+
+a.publication-item:hover {
+  color: $link-hover-color;
 }
 
 @import "bootstrap/bootstrap";

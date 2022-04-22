@@ -7,6 +7,11 @@ image: industry.webp
 ---
 
 As an expert for Digital Transformation, Digital Business and responsible Artificial Intelligence, Christian Matt offers
-consulting and coaching services for industry partners and public institutions. These include technology assessments, 
-system planning and design, as well as data governance projects. Previous clients included SMEs, large enterprises, 
-industry associations, and public institutions.
+consulting and coaching services for industry partners and public institutions. These services include:
+
+- technology assessments
+- business model development
+- system planning and design
+- data governance
+
+Previous clients included SMEs, large enterprises, industry associations, and public organisations.
