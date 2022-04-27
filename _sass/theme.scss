@@ -1,12 +1,13 @@
-$font-size: 1.1rem;
+$font-size: 1.075rem;
 $font-size-publications: $font-size * 0.8;
 $font-size-icon-multiplier: 0.6;
 $font-size-link-icon: $font-size * $font-size-icon-multiplier;
 
 $content-width-ultra-large-screen: 38%;
 $content-width-extra-large-screen: 45%;
-$content-width-large-screen: 55%;
-$content-width: 65%;
+$content-width-very-large-screen: 55%;
+$content-width-large-screen: 70%;
+$content-width: 80%;
 $content-width-medium-screen: 85%;
 $content-width-small-screen: 96%;
 
@@ -19,7 +20,7 @@ $padding-link-icon: 3px;
 $social-footer-padding: 35px;
 $social-icon-margin: 12px;
 
-$link-hover-color: #6c757d;
+$link-hover-color: rgb(79, 79, 79);
 
 $navbar-toggler-margin: 20px;
 $margin-header-image: 10px;
@@ -77,11 +78,11 @@ a.link:hover {
 }
 
 a.footer.link {
-  color: $link-hover-color !important;
+  color: #6c757d !important;
 }
 
 a.footer.link:hover {
-  color: rgb(172, 175, 178) !important;
+  color: $link-hover-color !important;
 }
 
 .icon-link {
@@ -94,6 +95,10 @@ a.footer.link:hover {
 .icon-contact {
   padding-right: $padding-link-icon;
   font-size: $font-size-link-icon;
+}
+
+.contact-info {
+  text-align: left !important;
 }
 
 .social-icon {
@@ -191,12 +196,16 @@ a.publication-item:hover {
     right: 85px;
   }
 
+  .page-content {
+    width: $content-width !important;
+  }
+
   #map {
     margin-top: 0;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1300px) {
   * {
     font-size: $font-size * 1.04;
   }
@@ -219,7 +228,7 @@ a.publication-item:hover {
 
 @media screen and (min-width: 1500px) {
   .page-content {
-    width: 50% !important;
+    width: $content-width-very-large-screen !important;
   }
 }
 
