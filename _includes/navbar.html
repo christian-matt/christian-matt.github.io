@@ -7,9 +7,9 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="navbar-nav m-auto navbar-center">
+        <div class="navbar-nav m-auto">
             {% for item in site.data.pages %}
-                 <a class=" nav-item nav-link {% if page.url == item.link %}active{% endif %}" href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a>
+                 <a class="nav-item nav-link {% if page.url == item.link %}active{% endif %}" href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a>
             {% endfor %}
         </div>
     </div>
