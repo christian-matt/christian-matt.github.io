@@ -159,7 +159,7 @@ a.publication-item:hover {
 @media screen and (max-width: $screen-width-xtra-small) {
   .navbar-brand {
     position: relative;
-    left: 28px + $navbar-toggler-margin;
+    left: 27px + $navbar-toggler-margin/4 !important;
   }
 
   #author {
@@ -180,12 +180,8 @@ a.publication-item:hover {
   }
 }
 
-@media screen and (min-width: $screen-width-xtra-small) and (max-width: $screen-width-small) {
-  .navbar-brand {
-    position: relative;
-    left: 28px + $navbar-toggler-margin;
-  }
 
+@media screen and (min-width: $screen-width-xtra-small) and (max-width: $screen-width-small) {
   .page-content {
     width: $content-width-medium-screen !important;
   }
@@ -194,6 +190,12 @@ a.publication-item:hover {
 @media screen and (max-width: $screen-width-small) {
   .navbar-nav {
     text-align: center !important;
+  }
+
+  .navbar-brand {
+    position: relative;
+    left: 27px + $navbar-toggler-margin/2 !important;
+    margin-right: 0 !important;
   }
 
   .contact {
