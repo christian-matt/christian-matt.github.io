@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     {%- include header.html -%}
-
+    <title>{{ page.title }}{% if page.url != '/'%} | Christian Matt{% endif %}</title>
     <meta name="keywords" content="{{page.keywords}}">
 
-    {% seo %}
+    {% seo title=false %}
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
