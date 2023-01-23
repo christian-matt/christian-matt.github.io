@@ -10,7 +10,7 @@ Christian Matt<br>
 Engehaldenstr. 8<br>
 3012 Bern<br>
 Schweiz<br>
-E-Mail: christian.matt@iwi.unibe.ch<br>
+E-Mail: christian.matt@unibe.ch<br>
 Website: https://christianmatt.com/
 
 #### Allgemeiner Hinweis
