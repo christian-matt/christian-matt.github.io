@@ -32,4 +32,4 @@ Der Herausgeber &uuml;bernimmt ebenfalls keine Verantwortung und Haftung f&uuml;
 #### &Auml;nderungen
 Wir k&ouml;nnen diese Datenschutzerkl&auml;rung jederzeit ohne Vorank&uuml;ndigung anpassen. Es gilt die jeweils aktuelle, auf unserer Website publizierte Fassung. Soweit die Datenschutzerkl&auml;rung Teil einer Vereinbarung mit Ihnen ist, werden wir Sie im Falle einer Aktualisierung über die &Auml;nderung per E-Mail oder auf andere geeignete Weise informieren.<br><br>
 
-Quelle: <script>getExternalLink('SwissAnwalt', 'https://www.swissanwalt.ch')</script>
+Quelle: {% include links/external.html url="https://www.swissanwalt.ch" name="SwissAnwalt"%}
