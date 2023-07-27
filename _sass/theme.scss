@@ -46,6 +46,10 @@ $margin-header-image-large-screen: 15px;
   margin-right: $navbar-toggler-margin;
 }
 
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.1rem !important;
+}
+
 .navbar-brand {
   font-size: 1.4rem !important;
   font-weight: bold;
