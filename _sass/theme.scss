@@ -2,6 +2,7 @@ $font-size: 1.06rem;
 $font-size-publications: $font-size * 0.8;
 $font-size-icon-multiplier: 0.6;
 $font-size-link-icon: $font-size * $font-size-icon-multiplier;
+$h1-font-size: $font-size * 1.8;
 
 $screen-width-xtra-small: 580px;
 $screen-width-small: 991px;
@@ -42,8 +43,8 @@ $margin-header-image-large-screen: 15px;
   hyphens: manual;
 }
 
-.navbar-toggler {
-  margin-right: $navbar-toggler-margin;
+.navbar-content {
+  padding: 0 !important;
 }
 
 .navbar-toggler:focus {
@@ -53,6 +54,11 @@ $margin-header-image-large-screen: 15px;
 .navbar-brand {
   font-size: 1.4rem !important;
   font-weight: bold;
+}
+
+.nav-link {
+  padding-left: 4px !important;
+  padding-right: 4px !important;
 }
 
 hr {
@@ -77,7 +83,7 @@ hr {
 }
 
 .page-content {
-  margin: 0 auto;
+  margin: 4rem auto 0 auto !important;
   width: $content-width !important;
   text-align: justify;
 }
@@ -161,11 +167,6 @@ a.publication-item:hover {
 }
 
 @media screen and (max-width: $screen-width-xtra-small) {
-  .navbar-brand {
-    position: relative;
-    left: 27px + $navbar-toggler-margin/4 !important;
-  }
-
   #author {
     display: block;
     margin: auto;
@@ -196,10 +197,8 @@ a.publication-item:hover {
     text-align: center !important;
   }
 
-  .navbar-brand {
-    position: relative;
-    left: 27px + $navbar-toggler-margin/2 !important;
-    margin-right: 0 !important;
+  .navbar-content {
+    width: $content-width-small-screen !important;
   }
 
   .contact {
@@ -213,8 +212,9 @@ a.publication-item:hover {
   }
 
   .navbar-nav {
-    position: relative;
-    right: 85px;
+    float: left;
+    position: absolute;
+    left: calc(50% - 316.4px);
   }
 
   .page-content {
