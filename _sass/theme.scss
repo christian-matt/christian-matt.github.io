@@ -37,6 +37,13 @@ $margin-header-image: 10px;
 $margin-header-image-large-screen: 15px;
 
 
+$accordion-button-active-bg: #f8f9fa;
+$accordion-button-active-color: black;
+
+$accordion-button-focus-border-color:  rgb(79, 79, 79);
+$accordion-button-focus-box-shadow: rgb(79, 79, 79);
+
+
 * {
   font-family: Helvetica, Georgia, serif;
   font-size: $font-size;
@@ -134,6 +141,8 @@ a.footer.link:hover {
 
 .publication-item {
   font-size: $font-size-publications;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 a.publication-item {
