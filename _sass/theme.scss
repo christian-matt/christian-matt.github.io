@@ -1,7 +1,6 @@
 $font-size: 1.06rem;
-$font-size-publications: $font-size * 0.8;
-$font-size-icon-multiplier: 0.6;
-$font-size-link-icon: $font-size * $font-size-icon-multiplier;
+$font-size-publications: $font-size * 0.9;
+$font-size-link-icon: $font-size * 0.6;
 $h1-font-size: $font-size * 1.8;
 
 $screen-width-xtra-small: 580px;
@@ -85,11 +84,6 @@ hr {
   text-align: center !important;
 }
 
-.h2 {
-  font-size: 1.3rem !important;
-  font-weight: bolder;
-}
-
 .page-content {
   margin: 4rem auto 0 auto !important;
   width: $content-width !important;
@@ -137,6 +131,10 @@ a.footer.link:hover {
   height: 40px;
   margin-right: $social-icon-margin;
   margin-left: $social-icon-margin;
+}
+
+.accordion-button {
+  font-size: $font-size !important;
 }
 
 .publication-item {
