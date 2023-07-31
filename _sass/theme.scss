@@ -1,7 +1,6 @@
 $font-size: 1.06rem;
-$font-size-publications: $font-size * 0.8;
-$font-size-icon-multiplier: 0.6;
-$font-size-link-icon: $font-size * $font-size-icon-multiplier;
+$font-size-publications: $font-size * 0.9;
+$font-size-link-icon: $font-size * 0.6;
 $h1-font-size: $font-size * 1.8;
 
 $screen-width-xtra-small: 580px;
@@ -37,6 +36,13 @@ $margin-header-image: 10px;
 $margin-header-image-large-screen: 15px;
 
 
+$accordion-button-active-bg: #f8f9fa;
+$accordion-button-active-color: black;
+
+$accordion-button-focus-border-color:  rgb(79, 79, 79);
+$accordion-button-focus-box-shadow: rgb(79, 79, 79);
+
+
 * {
   font-family: Helvetica, Georgia, serif;
   font-size: $font-size;
@@ -54,11 +60,7 @@ $margin-header-image-large-screen: 15px;
 .navbar-brand {
   font-size: 1.4rem !important;
   font-weight: bold;
-}
-
-.nav-link {
-  padding-left: 4px !important;
-  padding-right: 4px !important;
+  margin-right: 0 !important;
 }
 
 hr {
@@ -76,11 +78,6 @@ hr {
 
 .h1 {
   text-align: center !important;
-}
-
-.h2 {
-  font-size: 1.3rem !important;
-  font-weight: bolder;
 }
 
 .page-content {
@@ -132,8 +129,14 @@ a.footer.link:hover {
   margin-left: $social-icon-margin;
 }
 
+.accordion-button {
+  font-size: $font-size !important;
+}
+
 .publication-item {
   font-size: $font-size-publications;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 a.publication-item {
@@ -215,7 +218,7 @@ a.publication-item:hover {
   .navbar-nav {
     float: left;
     position: absolute;
-    left: calc(50% - 316.4px);
+    left: calc(50% - 316.44px);
   }
 
   .page-content {
