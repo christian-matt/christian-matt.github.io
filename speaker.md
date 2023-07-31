@@ -16,11 +16,6 @@ but are not limited to, recent trends and insights on:
 
 The presentations are either in English or German, and can be combined with interactive elements, such as integrated workshops.
 
-Recent talks and workshops:
-- Süddeutscher Verlag GmbH: Digital Content Personalization for Publishers
-- Vereinigung Berner Wirtschaftswissenschafter (VBW): Generative AI
-- Medienverband der freien Presse e.V. (MVFP): Workshop on Content-Personalization
-
 <div class="accordion" id="accordionRoles">
     <div class="accordion-item">
         <h2 class="accordion-header">
