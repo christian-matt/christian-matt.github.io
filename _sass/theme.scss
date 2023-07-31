@@ -60,11 +60,7 @@ $accordion-button-focus-box-shadow: rgb(79, 79, 79);
 .navbar-brand {
   font-size: 1.4rem !important;
   font-weight: bold;
-}
-
-.nav-link {
-  padding-left: 4px !important;
-  padding-right: 4px !important;
+  margin-right: 0 !important;
 }
 
 hr {
@@ -222,7 +218,7 @@ a.publication-item:hover {
   .navbar-nav {
     float: left;
     position: absolute;
-    left: calc(50% - 316.4px);
+    left: calc(50% - 316.44px);
   }
 
   .page-content {
