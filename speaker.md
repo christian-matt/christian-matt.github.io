@@ -19,7 +19,7 @@ The presentations are either in English or German, and can be combined with inte
 <div class="accordion" id="accordionRoles">
     <div class="accordion-item">
         <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button id="accordion-button" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 Recent talks and workshops
             </button>
         </h2>
