@@ -148,6 +148,11 @@ a.publication-item:hover {
   color: $link-hover-color;
 }
 
+.contact-link {
+  display: block;
+  margin-top: 10px !important;
+}
+
 #social-footer{
   padding-top: $social-footer-padding;
   padding-bottom: $social-footer-padding;
