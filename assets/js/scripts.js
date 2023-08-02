@@ -36,11 +36,13 @@ $(window).click(function() {
 */
 $(document).ready(function() {
     if($(window).width() <= 580) {
-        let element = document.getElementById("collapseOne");
-        element.classList.remove("show")
+        try {
+            let element = document.getElementById("collapseOne");
+            element.classList.remove("show")
 
-        element = document.getElementById("accordion-button");
-        element.classList.add("collapsed")
+            element = document.getElementById("accordion-button");
+            element.classList.add("collapsed")
+        } catch (TypeError) {}
     }
 });
 
