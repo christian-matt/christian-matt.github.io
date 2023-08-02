@@ -22,7 +22,10 @@ image: contact.webp
     </div>
     <div class="col-lg-7">
         <div id="map-container">
-            <button id="consent-button" type="button" class="btn btn-light" onclick='loadGoogleMaps()'>Allow Google Maps (incl. cookies)</button>
+            <form class="consent-form">
+                <button type="button" class="btn btn-light consent-button" onclick='loadGoogleMaps()'>Allow Google Maps (incl. cookies)</button>
+                <a target="_blank" type="button" class="btn btn-light consent-button" href="https://consent.google.com/m?continue=https://maps.google.com/maps?t%3Dm%26hl%3Den-US%26gl%3DUS%26cid%3D1292335091707398548&gl=CH&m=0&pc=m&uxe=eomtm&cm=2&hl=en&src=1">Google consent statement<i class="bi bi-box-arrow-up-right icon-link"></i></a>
+            </form>
         </div>
     </div>
 </div>

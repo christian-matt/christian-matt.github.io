@@ -171,7 +171,7 @@ a.publication-item:hover {
 }
 
 #map {
-  height: 350px;
+  height: 350px !important;
   width: 100%;
   margin-top: 20px;
 }
@@ -180,11 +180,18 @@ a.publication-item:hover {
   border: $border-custom;
   display: flex;
   align-items: center;
-  height: 350px;
+  height: 350px !important;
 }
 
-#consent-button {
+.consent-form {
   margin: auto !important;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.consent-button {
+  margin: 20px !important;
 }
 
 iframe {

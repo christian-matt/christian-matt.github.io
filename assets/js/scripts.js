@@ -3,7 +3,10 @@
 * Loads Google Maps centered on IWI.
 */
 function loadGoogleMaps() {
-    document.getElementById("consent-button").remove();
+    //remove consent buttons
+    $('.consent-form').remove();
+
+    // load map
     let map = document.createElement('iframe');
     map.src = 'https://www.google.com/maps/embed/v1/place?q=place_id:ChIJITeQkZU5jkcRlMn9N-tL7xE&key=AIzaSyCvO97-2YNPsZ1r2Q6YttgESTUahpGBsNc&zoom=17'
     map.id = 'map'
