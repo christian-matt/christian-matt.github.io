@@ -25,6 +25,8 @@ $image-height-large-screen: 240px;
 $image-height-extra-large-screen: 280px;
 $image-height-ultra-large-screen: 300px;
 
+$border-custom: 1px solid rgba(221, 221, 221, 0.82);
+
 $padding-link-icon: 3px;
 $social-footer-padding: 35px;
 $social-icon-margin: 12px;
@@ -34,7 +36,6 @@ $link-hover-color: rgb(79, 79, 79);
 $navbar-toggler-margin: 20px;
 $margin-header-image: 10px;
 $margin-header-image-large-screen: 15px;
-
 
 $accordion-button-active-bg: #f8f9fa;
 $accordion-button-active-color: black;
@@ -73,7 +74,7 @@ hr {
   margin-top: $margin-header-image;
   height: $image-height;
   width: $image-height * 1.25;
-  border: 1px solid rgba(221, 221, 221, 0.82);
+  border: $border-custom;
 }
 
 .h1 {
@@ -122,6 +123,11 @@ a.footer.link:hover {
   padding-right: 0 !important;
 }
 
+.contact-link {
+  display: block;
+  margin-top: 10px !important;
+}
+
 .social-icon {
   width: 40px;
   height: 40px;
@@ -148,11 +154,6 @@ a.publication-item:hover {
   color: $link-hover-color;
 }
 
-.contact-link {
-  display: block;
-  margin-top: 10px !important;
-}
-
 #social-footer{
   padding-top: $social-footer-padding;
   padding-bottom: $social-footer-padding;
@@ -170,9 +171,24 @@ a.publication-item:hover {
 }
 
 #map {
-  height: 350px;
+  height: 100%;
   width: 100%;
   margin-top: 20px;
+}
+
+#map-container {
+  border: $border-custom;
+  display: flex;
+  align-items: center;
+  height: 350px;
+}
+
+#consent-button {
+  margin: auto !important;
+}
+
+iframe {
+  margin: 0 !important;
 }
 
 @media screen and (max-width: $screen-width-xtra-small) {

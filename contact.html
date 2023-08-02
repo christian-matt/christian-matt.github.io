@@ -7,7 +7,7 @@ image: contact.webp
 ---
 
 <div class="row">
-    <div class="col-lg-5 contact">
+    <div class="col-lg-5 contact mb-3">
         <p>Get in touch with Christian Matt via one of the following options:</p>
         <ul class="list list-unstyled ">
             <li class="list-item contact-info">University of Bern</li>
@@ -20,7 +20,9 @@ image: contact.webp
         <a href="tel:+41 31 684 49 67" class="link contact-link"><i class="bi bi-telephone icon-contact"></i>+41 31 684 49 67</a>
         <a target="_blank" href="https://www.linkedin.com/in/christianmatt/" class="link contact-link"><i class="bi bi-linkedin icon-contact"></i>@christianmatt</a>
     </div>
-    <div class="col-lg-7 map-container">
-        <iframe id="map" title="Map" referrerpolicy="no-referrer" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJITeQkZU5jkcRlMn9N-tL7xE&key=AIzaSyCvO97-2YNPsZ1r2Q6YttgESTUahpGBsNc&zoom=17"></iframe>
+    <div class="col-lg-7">
+        <div id="map-container">
+            <button id="consent-button" type="button" class="btn btn-light" onclick='loadGoogleMaps()'>Allow Google Maps (incl. cookies)</button>
+        </div>
     </div>
 </div>

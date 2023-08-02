@@ -1,5 +1,20 @@
 
 /*
+* Loads Google Maps centered on IWI.
+*/
+function loadGoogleMaps() {
+    document.getElementById("consent-button").remove();
+    let map = document.createElement('iframe');
+    map.src = 'https://www.google.com/maps/embed/v1/place?q=place_id:ChIJITeQkZU5jkcRlMn9N-tL7xE&key=AIzaSyCvO97-2YNPsZ1r2Q6YttgESTUahpGBsNc&zoom=17'
+    map.id = 'map'
+    map.allowFullscreen = true
+    map.loading = 'lazy'
+    map.title = 'Map'
+    map.referrerPolicy = 'no-referrer'
+    document.getElementById("map-container").append(map);
+}
+
+/*
 * Collapse navbar (small screen sizes -> tablets and smartphones).
 */
 function resetNavbar(){
