@@ -1,7 +1,11 @@
 $font-size: 1.06rem;
-$font-size-publications: $font-size * 0.9;
+$font-size-accordion-item: $font-size * 0.9;
 $font-size-link-icon: $font-size * 0.6;
 $h1-font-size: $font-size * 1.8;
+
+$font-size-multiplicative-small: 1.02;
+$font-size-multiplicative-medium: 1.04;
+$font-size-multiplicative-large: 1.06;
 
 $screen-width-xtra-small: 580px;
 $screen-width-small: 991px;
@@ -42,6 +46,8 @@ $accordion-button-active-color: black;
 
 $accordion-button-focus-border-color:  rgb(79, 79, 79);
 $accordion-button-focus-box-shadow: rgb(79, 79, 79);
+
+$map-height: 370px;
 
 
 * {
@@ -139,18 +145,18 @@ a.footer.link:hover {
   font-size: $font-size !important;
 }
 
-.publication-item {
-  font-size: $font-size-publications;
+.accordion-list-item {
+  font-size: $font-size-accordion-item;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-a.publication-item {
-  font-size: $font-size-publications;
+a.accordion-list-item {
+  font-size: $font-size-accordion-item;
   color: black;
 }
 
-a.publication-item:hover {
+a.accordion-list-item:hover {
   color: $link-hover-color;
 }
 
@@ -171,7 +177,7 @@ a.publication-item:hover {
 }
 
 #map {
-  height: 350px !important;
+  height: $map-height !important;
   width: 100%;
   margin-top: 20px;
   border-top: $border-custom;
@@ -182,7 +188,7 @@ a.publication-item:hover {
   border: $border-custom;
   display: flex;
   align-items: center;
-  height: 350px !important;
+  height: $map-height !important;
 }
 
 .consent-form {
@@ -242,7 +248,19 @@ iframe {
 
 @media screen and (min-width: $screen-width-small+1) {
   * {
-    font-size: $font-size * 1.02;
+    font-size: $font-size * $font-size-multiplicative-small;
+  }
+
+  .accordion-button {
+    font-size: $font-size * $font-size-multiplicative-small !important;
+  }
+
+  .accordion-list-item {
+    font-size: $font-size-accordion-item * $font-size-multiplicative-small !important;
+  }
+
+  a.accordion-list-item {
+    font-size: $font-size-accordion-item * $font-size-multiplicative-small !important;
   }
 
   .navbar-nav {
@@ -262,13 +280,28 @@ iframe {
 
 @media screen and (min-width: $screen-width-medium) {
   * {
-    font-size: $font-size * 1.04;
+    font-size: $font-size * $font-size-multiplicative-medium;
+  }
+
+  .accordion-button {
+    font-size: $font-size * $font-size-multiplicative-medium !important;
+  }
+
+  .accordion-list-item {
+    font-size: $font-size-accordion-item * $font-size-multiplicative-medium !important;
+  }
+
+  a.accordion-list-item {
+    font-size: $font-size-accordion-item * $font-size-multiplicative-medium !important;
   }
 
   .page-content {
     width: $content-width-large-screen !important;
   }
 
+  .page-content {
+    width: $content-width-large-screen !important;
+  }
   .rounded-circle {
     margin-top: $margin-header-image + $margin-header-image-large-screen;
     margin-bottom: $margin-header-image-large-screen;
@@ -289,11 +322,23 @@ iframe {
 
 @media screen and (min-width: $screen-width-large) {
   * {
-    font-size: $font-size * 1.06;
+    font-size: $font-size * $font-size-multiplicative-large;
+  }
+
+  .accordion-button {
+    font-size: $font-size * $font-size-multiplicative-large !important;
+  }
+
+  .accordion-list-item {
+    font-size: $font-size-accordion-item * $font-size-multiplicative-large !important;
+  }
+
+  a.accordion-list-item {
+    font-size: $font-size-accordion-item * $font-size-multiplicative-large !important;
   }
 
   #map {
-    height: 400px;
+    height: $map-height * 1.4 !important;
   }
 }
 
