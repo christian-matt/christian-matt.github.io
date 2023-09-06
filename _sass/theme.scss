@@ -337,6 +337,10 @@ iframe {
     font-size: $font-size-accordion-item * $font-size-multiplicative-large !important;
   }
 
+  #map-container {
+    height: $map-height * 1.4 !important;
+  }
+
   #map {
     height: $map-height * 1.4 !important;
   }
