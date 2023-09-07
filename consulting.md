@@ -10,6 +10,6 @@ As an expert for Digital Transformation and responsible Artificial Intelligence,
 These services include:
 
 - Digital Technology and Market Assessments
-- Strategy Planning and Advisory
+- Digital and AI Strategy Planning and Advisory
 
 Previous clients included multinational enterprises, SMEs, industry associations, and public organizations.
