@@ -21,14 +21,8 @@ function loadGoogleMaps() {
 * Collapse navbar (small screen sizes -> tablets and smartphones).
 */
 function resetNavbar(){
-/*    const element = document.getElementById("navbarText");
-    element.classList.add("collapsing");
-    element.classList.add("collapse");
-    element.classList.remove("show")*/
     const navLinks = document.querySelectorAll('.nav-item')
     const menuToggle = document.getElementById('navbarText')
-    console.log(navLinks)
-    console.log(menuToggle)
     if (menuToggle.classList.contains("show")) {
         const bsCollapse = new bootstrap.Collapse(menuToggle)
         navLinks.forEach(() => bsCollapse.hide());
@@ -47,7 +41,6 @@ function resetToggler() {
 * If scroll movement is detected, collapse navbar and set navbar toggler to default.
 */
 $(document).scroll(function() {
-    console.log("scroll")
     resetNavbar();
     resetToggler();
 });
