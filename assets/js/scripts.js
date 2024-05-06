@@ -21,9 +21,18 @@ function loadGoogleMaps() {
 * Collapse navbar (small screen sizes -> tablets and smartphones).
 */
 function resetNavbar(){
-    const element = document.getElementById("navbarSupportedContent");
-    element.classList.remove("show")
+/*    const element = document.getElementById("navbarText");
+    element.classList.add("collapsing");
     element.classList.add("collapse");
+    element.classList.remove("show")*/
+    const navLinks = document.querySelectorAll('.nav-item')
+    const menuToggle = document.getElementById('navbarText')
+    console.log(navLinks)
+    console.log(menuToggle)
+    if (menuToggle.classList.contains("show")) {
+        const bsCollapse = new bootstrap.Collapse(menuToggle)
+        navLinks.forEach(() => bsCollapse.hide());
+    }
 }
 
 /*
@@ -37,7 +46,8 @@ function resetToggler() {
 /*
 * If scroll movement is detected, collapse navbar and set navbar toggler to default.
 */
-$(window).scroll(function() {
+$(document).scroll(function() {
+    console.log("scroll")
     resetNavbar();
     resetToggler();
 });
@@ -45,7 +55,7 @@ $(window).scroll(function() {
 /*
 * If click besides navbar is detected, collapse navbar.
 */
-$(window).click(function() {
+$(document).click(function() {
     resetNavbar();
 });
 
