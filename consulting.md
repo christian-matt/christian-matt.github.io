@@ -9,7 +9,8 @@ image: consulting.webp
 As an expert for Digital Transformation and responsible Artificial Intelligence, Christian Matt offers consulting and coaching services for firms and public institutions.
 These services include:
 
-- Digital Technology and Market Assessments
-- Digital and AI Strategy Planning and Advisory
+- (Generative) AI Potential and Implementation Assessments
+- Digital Transformation Strategy Planning and Advisory
+- Digital Technology Market Assessments
 
 Previous clients included multinational enterprises, SMEs, industry associations, and public organizations.
