@@ -6,14 +6,15 @@ description: Engaging and interactive executive teaching and seminars on Digital
 image: teaching.webp
 ---
 
-Christian Matt teaches in the fields of Digital Transformation and Digital Business at Bachelor, Master, and PhD-level.
 
-He has held teaching appointments at EM Lyon, Lancaster Business School, LMU Munich, and TU Darmstadt.
+Christian Matt teaches on topics at the heart of today’s digital change – including **Digital Transformation**, **Digital Business**, and **AI in Organizations** – across Bachelor, Master, and PhD programs. His teaching combines academic rigor with real-world relevance and is designed to equip students and professionals alike with the mindset and tools to navigate digital change.
 
-He serves as module lead in the executive education programs {% include links/external.html url="https://www.unibe.ch/weiterbildungsangebote/cas_digitale_transformation/index_ger.html" name="CAS Digital Transformation"%}
-and {% include links/external.html url="https://www.unibe.ch/weiterbildungsangebote/cas_tourismus_und_digitalisierung/index_ger.html" name="CAS Tourism and Digitalization"%}
-at the University of Bern. His executive classes comprise topics such as:
-- Introduction into Digital Transformation
-- Strategic Aspects of Digital Transformation 
-- Digital Transformation of Businesses and Value Creation 
-- Digital Business Models
+He has also taught at institutions such as **LMU Munich**, **EM Lyon**, **Lancaster University**, and **TU Darmstadt**.
+
+At the University of Bern, he leads key modules in executive education, including the {% include links/external.html url="https://www.imu-weiterbildung.ch/de/cas-digitale-transformation-und-ai" name="CAS Digital Transformation & AI "%} and {% include links/external.html url="https://www.imu-weiterbildung.ch/de/cas-marktorientierte-bwl?gad_source=1&gad_campaignid=682560610&gclid=CjwKCAjw4efDBhATEiwAaDBpbvu_vXOliqkk6K5LYkOJ8WHvAeRieLeKxNrEqVPtRDo5OP2CSnl58RoCMTAQAvD_BwE" name="CAS Market-oriented Business Administration"%}. His executive courses focus on high-impact topics such as:
+- Understanding Digital Transformation: Concepts & Trends
+- Strategy and Leadership in the Digital Age
+- Transforming Business Models with AI
+- Building Digital Capabilities and Skills
+
+Whether in the classroom or the boardroom, his teaching emphasizes critical thinking, strategic insight, and practical application.
