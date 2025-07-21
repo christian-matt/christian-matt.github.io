@@ -76,7 +76,7 @@ hr {
   margin-right: auto !important;
 }
 
-.rounded-circle {
+.header-image {
   margin-top: $margin-header-image;
   height: $image-height;
   width: $image-height * 1.25;
@@ -311,7 +311,7 @@ iframe {
   .page-content {
     width: $content-width-large-screen !important;
   }
-  .rounded-circle {
+  .header-image {
     margin-top: $margin-header-image + $margin-header-image-large-screen;
     margin-bottom: $margin-header-image-large-screen;
     height: $image-height-large-screen;
@@ -356,7 +356,7 @@ iframe {
 }
 
 @media screen and (min-width: $screen-width-very-large) {
-  .rounded-circle {
+  .header-image {
     height: $image-height-extra-large-screen !important;
     width: $image-height-extra-large-screen * 1.25 !important;
   }
@@ -371,7 +371,7 @@ iframe {
     width: $content-width-ultra-large-screen !important;
   }
 
-  .rounded-circle {
+  .header-image {
     height: $image-height-ultra-large-screen !important;
     width: $image-height-ultra-large-screen * 1.25 !important;
   }
