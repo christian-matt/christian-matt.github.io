@@ -11,7 +11,7 @@ Christian Matt teaches on topics at the heart of today’s digital change – in
 
 He has also taught at institutions such as **LMU Munich**, **EM Lyon**, **Lancaster University**, and **TU Darmstadt**.
 
-At the University of Bern, he leads key modules in executive education, including the {% include links/external.html url="https://www.imu-weiterbildung.ch/de/cas-digitale-transformation-und-ai" name="CAS Digital Transformation & AI "%} and {% include links/external.html url="https://www.imu-weiterbildung.ch/de/cas-marktorientierte-bwl?gad_source=1&gad_campaignid=682560610&gclid=CjwKCAjw4efDBhATEiwAaDBpbvu_vXOliqkk6K5LYkOJ8WHvAeRieLeKxNrEqVPtRDo5OP2CSnl58RoCMTAQAvD_BwE" name="CAS Market-oriented Business Administration"%}. His executive courses focus on high-impact topics such as:
+At the University of Bern, he leads key modules in executive education, including the {% include links/external.html url="https://www.imu-weiterbildung.ch/de/cas-digitale-transformation-und-ai" name="CAS Digital Transformation & AI"%} and {% include links/external.html url="https://www.imu-weiterbildung.ch/de/cas-marktorientierte-bwl?gad_source=1&gad_campaignid=682560610&gclid=CjwKCAjw4efDBhATEiwAaDBpbvu_vXOliqkk6K5LYkOJ8WHvAeRieLeKxNrEqVPtRDo5OP2CSnl58RoCMTAQAvD_BwE" name="CAS Market-oriented Business Administration"%}. His executive courses focus on high-impact topics such as:
 - Understanding Digital Transformation: Concepts & Trends
 - Strategy and Leadership in the Digital Age
 - Transforming Business Models with AI
