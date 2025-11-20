@@ -1,5 +1,7 @@
 ---
 ---
 
-@import "theme";
+@use "theme";
+
+$bootstrap-icons-font-dir: "assests/css/fonts";
 @import "bootstrap-icons/bootstrap-icons.css";

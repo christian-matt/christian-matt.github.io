@@ -4,10 +4,9 @@
 
 | Name                                                                         | License | Version |
 |------------------------------------------------------------------------------|---------|---------|
-| [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) | MIT     | 5.3     |
-| [PopperJS](https://popper.js.org)                                            | MIT     | 2.11    |
-| [JQuery](https://jquery.com)                                                 | MIT     | 3.7     |
-| [Jekyll](https://jekyllrb.com/)                                              | MIT     | 4       |
+| [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) | MIT     | 5.3.8   |
+| [JQuery](https://jquery.com)                                                 | MIT     | 3.7.1   |
+| [Jekyll](https://jekyllrb.com/)    |  MIT    | 4.4.1   |
 
 ### Photos and Icons
 
