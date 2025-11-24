@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contact
-permalink: /contact
+permalink: /contact.html
 keywords: Christian Matt, Contact, Digital Transformation Strategy
 description: Get in touch with Christian Matt and connect here or via social media.
 image: contact.webp
@@ -21,12 +21,7 @@ image: contact.webp
         <a href="tel:+41 31 684 49 67" class="link contact-link"><i class="bi bi-telephone icon-contact"></i>+41 31 684 49 67</a>
         <a target="_blank" href="https://www.linkedin.com/in/christianmatt/" class="link contact-link"><i class="bi bi-linkedin icon-contact"></i>@christianmatt</a>
     </div>
-    <div class="col-lg-7">
-        <div id="map-container">
-            <form class="consent-form">
-                <button type="button" class="btn btn-light consent-button" onclick='loadGoogleMaps()'>Allow Google Maps<wbr> (incl. data processing)</button>
-                <a target="_blank" type="button" class="btn btn-light consent-button" href="https://consent.google.com/m?continue=https://maps.google.com/maps?t%3Dm%26hl%3Den-US%26gl%3DUS%26cid%3D1292335091707398548&gl=CH&m=0&pc=m&uxe=eomtm&cm=2&hl=en&src=1">Google consent statement<i class="bi bi-box-arrow-up-right icon-link"></i></a>
-            </form>
-        </div>
-    </div>
+
+    {% include maps.html %}
+
 </div>

@@ -153,13 +153,13 @@ a.footer.link:hover {
 }
 
 .accordion-list-item {
-  font-size: $font-size-accordion-item;
+  font-size: $font-size-accordion-item !important;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 a.accordion-list-item {
-  font-size: $font-size-accordion-item;
+  font-size: $font-size-accordion-item !important;
   color: black;
 }
 
@@ -167,9 +167,6 @@ a.accordion-list-item:hover {
   color: $link-hover-color;
 }
 
-.accordion-list-item > i {
-  font-size: $font-size-accordion-item;
-}
 
 #social-footer{
   padding-top: $social-footer-padding;

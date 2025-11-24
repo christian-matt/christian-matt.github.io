@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Legal Notice
-permalink: /legal
+permalink: /legal.html
 description: This is the legal notice of christianmatt.com.
 image: None
 ---

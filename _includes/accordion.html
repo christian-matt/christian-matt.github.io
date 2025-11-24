@@ -1,0 +1,47 @@
+<div class="accordion" id="accordion">
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button id="accordion-button" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                {{ include.label1 }}
+            </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion">
+            <div class="accordion-body">
+                <ul class="accordion-list">
+                    {% for item in include.items1 %}
+                        {% if include.id_only1 %}
+                        <li class="accordion-list-item" id="{{ item }}"></li>
+                        {% else%}
+                        <li class="accordion-list-item">{{ item }}</li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    {% if include.label2 != 0 %}
+
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                {{ include.label2 }}
+            </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion">
+            <div class="accordion-body">
+                <ul class="accordion-list">
+                    {% for item in include.items2 %}
+                        {% if include.id_only2 %}
+                        <li class="accordion-list-item" id="{{ item }}"></li>
+                        {% else%}
+                        <li class="accordion-list-item">{{ item }}</li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    {% endif%}
+</div>
