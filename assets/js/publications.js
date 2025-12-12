@@ -3,15 +3,15 @@ function citationFormatter(id, authors, year, article_title, journal, volume, is
         ` (${year}): ` +
         article_title + ',' +
         ` <i class="accordion-list-item">${journal}</i>` +
-        ` (${volume}:${issue})` +
-        ` pp. ${pages}` +
+        ` (${volume}` + (issue === null ? "" : `:${issue}`) + `),` +
+        (pages.includes("-") ? ` pp. ${pages}`: ` ${pages}`) +
         linkFormatter(doi, doi_label, doi=true, accordion = true) +
         '.'
 }
 
 articles = [
     {
-        "id": "publication1",
+        "id": "publication2",
         "authors": "Ebrahimi, S.; Matt, C.",
         "year": 2024,
         "article_title": "Not Seeing the (Moral) Forest for the Trees? How Task Complexity and Employees’ Expertise Affect Moral Disengagement with Discriminatory Data Analytics Recommendations",
@@ -23,7 +23,7 @@ articles = [
         "doi_label": "10.1177/02683962231181148"
     },
     {
-        "id": "publication2",
+        "id": "publication3",
         "authors": "Lehrer, C.; Constantinou, I.; Matt, C.; Hess, T.",
         "year": 2023,
         "article_title": "How Ephemerality Features Affect User Engagement with Social Media",
@@ -35,7 +35,7 @@ articles = [
         "doi_label": "10.25300/MISQ/2023/17085"
     },
     {
-        "id": "publication3",
+        "id": "publication4",
         "authors": "Lüthi, N.; Matt, C.; Myrach, T.; Junglas, I.",
         "year": 2023,
         "article_title": "Augmented Intelligence, Augmented Responsibility?",
@@ -47,7 +47,7 @@ articles = [
         "doi_label": "10.1007/s12599-023-00789-9"
     },
     {
-        "id": "publication4",
+        "id": "publication5",
         "authors": "Bründl, S.; Matt, C.; Hess, T.; Engert, S.",
         "year": 2023,
         "article_title": "How Synchronous Participation Affects the Willingness to Subscribe to Social Live Streaming Services: The Role of Co-Interactive Behavior on Twitch",
@@ -59,7 +59,7 @@ articles = [
         "doi_label": "10.1080/0960085X.2022.&shy;2062468"
     },
     {
-        "id": "publication5",
+        "id": "publication6",
         "authors": "Turel, O.; Matt, C.; Trenz, M.; Cheung, CMK.",
         "year": 2020,
         "article_title": "An Intertwined Perspective on Technology and Digitised Individuals: Linkages, Needs and Outcomes",
@@ -71,16 +71,16 @@ articles = [
         "doi_label": "10.1111/isj.&shy;12304"
     },
     {
-        "id": "publication6",
-        "authors": "Matt, C.; Hess, T.; Benlian, A.",
-        "year": 2015,
-        "article_title": "Digital Transformation Strategies",
-        "journal": "Business & Information Systems Engineering",
-        "volume": 57,
-        "issue": 5,
-        "pages": "339-343",
-        "doi": "10.1007/s12599-015-0401-5",
-        "doi_label": "10.1007/s12599-015-&shy;0401-5"
+        "id": "publication1",
+        "authors": "Wurm, B.; Matt, C.; Benlian, A.; Hess, T.",
+        "year": 2025,
+        "article_title": "A Revised Framework for Digital Transformation Strategies: Contemporary Insights and Future Research Pathways",
+        "journal": "Electronic Markets",
+        "volume": "35",
+        "issue": null,
+        "pages": "99",
+        "doi": "10.1007/s12525-025-00838-z",
+        "doi_label": "10.1007/s12525-025-00838-z"
     }
 ]
 
