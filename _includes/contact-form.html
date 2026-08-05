@@ -1,0 +1,27 @@
+{% assign form = site.data.contact[page.lang] %}
+<form class="form" id="contactForm" data-language="{{ page.lang }}" data-recipient="{{ site.email }}" data-subject-prefix="{{ form.subject_prefix }}" data-success="{{ form.success | escape }}">
+  <div class="field">
+    <label for="name">{{ form.name }}</label>
+    <input id="name" name="name" type="text" autocomplete="name" required>
+  </div>
+  <div class="field">
+    <label for="email">{{ form.email }}</label>
+    <input id="email" name="email" type="email" autocomplete="email" required>
+  </div>
+  <div class="field">
+    <label for="org">{{ form.organisation }}</label>
+    <input id="org" name="organisation" type="text" autocomplete="organization">
+  </div>
+  <div class="field">
+    <label for="topic">{{ form.topic }}</label>
+    <select id="topic" name="topic">
+      {% for option in form.options %}<option>{{ option }}</option>{% endfor %}
+    </select>
+  </div>
+  <div class="field">
+    <label for="msg">{{ form.message }}</label>
+    <textarea id="msg" name="message" required></textarea>
+  </div>
+  <button class="btn btn-primary btn-arrow" type="submit">{{ form.submit }}</button>
+  <p class="note" id="formNote" aria-live="polite">{{ form.note }}</p>
+</form>

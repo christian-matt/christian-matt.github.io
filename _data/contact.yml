@@ -1,0 +1,32 @@
+de:
+  name: Name
+  email: E-Mail
+  organisation: Organisation
+  topic: Anliegen
+  message: Nachricht
+  submit: Nachricht senden
+  note: Beim Absenden öffnet sich Ihr E-Mail-Programm mit der vorbefüllten Nachricht an mich.
+  success: Ihr E-Mail-Programm öffnet sich mit der vorbefüllten Nachricht. Falls nicht, schreiben Sie bitte direkt an christian.matt@unibe.ch.
+  subject_prefix: Anfrage
+  options:
+    - Consulting
+    - Workshop
+    - Vortrag
+    - Executive Education
+    - Sonstiges
+en:
+  name: Name
+  email: Email
+  organisation: Organisation
+  topic: Enquiry
+  message: Message
+  submit: Send message
+  note: On submit, your email client will open with the message pre-filled.
+  success: Your email client will open with the pre-filled message. If it does not, please email christian.matt@unibe.ch directly.
+  subject_prefix: Enquiry
+  options:
+    - Consulting
+    - Workshop
+    - Talk
+    - Executive education
+    - Other

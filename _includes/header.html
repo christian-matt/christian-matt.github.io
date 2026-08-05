@@ -1,11 +1,16 @@
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
-  <link rel="manifest" href="/assets/images/favicons/site.webmanifest">
-  <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico">
-  <meta name="msapplication-TileColor" content="#2b5797">
-  <meta name="msapplication-config" content="/assets/images/icons/browserconfig.xml">
-  <meta name="theme-color" content="#ffffff">
+{% assign nav = site.data.navigation[page.lang] %}
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="logo" href="{{ nav.home.url | relative_url }}">Christian Matt</a>
+    <nav class="nav-links" id="navLinks" aria-label="{% if page.lang == 'de' %}Hauptnavigation{% else %}Main navigation{% endif %}">
+      {% assign main_keys = 'home,consulting,workshops,education,about' | split: ',' %}
+      {% for key in main_keys %}
+        {% assign item = nav[key] %}
+        <a href="{{ item.url | relative_url }}"{% if page.nav_key == key %} class="active" aria-current="page"{% endif %}>{{ item.label }}</a>
+      {% endfor %}
+      <a class="nav-lang" href="{{ page.alternate_url | relative_url }}" lang="{{ page.alternate_lang }}" hreflang="{{ page.alternate_lang }}" aria-label="{{ nav.language_label }}">{{ nav.language_short }}</a>
+      <a class="btn btn-primary nav-cta" href="{{ nav.contact.url | relative_url }}"{% if page.nav_key == 'contact' %} aria-current="page"{% endif %}>{{ nav.contact.label }}</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-controls="navLinks" aria-label="{% if page.lang == 'de' %}Menü{% else %}Menu{% endif %}" aria-expanded="false">&#9776;</button>
+  </div>
+</header>

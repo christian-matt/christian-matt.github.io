@@ -1,0 +1,20 @@
+de:
+  home: { label: Start, url: / }
+  consulting: { label: Consulting, url: /consulting/ }
+  workshops: { label: "Workshops & Vorträge", url: /workshops/ }
+  education: { label: Executive Education, url: /executive-education/ }
+  about: { label: Über mich, url: /about/ }
+  contact: { label: Kontakt, url: /contact/ }
+  legal: { label: Impressum, url: /impressum/ }
+  language_label: Switch to English
+  language_short: EN
+en:
+  home: { label: Home, url: /en/ }
+  consulting: { label: Consulting, url: /en/consulting/ }
+  workshops: { label: "Workshops & talks", url: /en/workshops/ }
+  education: { label: Executive education, url: /en/executive-education/ }
+  about: { label: About, url: /en/about/ }
+  contact: { label: Contact, url: /en/contact/ }
+  legal: { label: Impressum, url: /en/legal/ }
+  language_label: Auf Deutsch wechseln
+  language_short: DE

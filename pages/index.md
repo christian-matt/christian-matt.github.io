@@ -1,30 +1,66 @@
 ---
-layout: default
-title: Prof. Dr. Christian Matt
+layout: home
+lang: de
+nav_key: home
 permalink: /
-keywords: Universität Bern, Digital Transformation Strategy, Expert, Digital Business, Responsible Artificial Intelligence, Professor, Stiftungsrat, Verwaltungsrat, Advisory Board, Kommission, Christian, Matt, Digitization Commission, Law and Digitalization, Regulatory Technologies, Association for Information Systems, Stiftung der Deutschen Wirtschaft
-description: Christian Matt is Professor and Co-director of the Institute of Information Systems at the University of Bern. As a researcher, consultant and expert for Digital Transformation, Digital Business and Responsible Artificial Intelligence, he is fascinated by how digital technologies lead to new opportunities and paradigm shifts for firms, public organisations, society, and individuals.
-image: profile.webp
-label_positions: Positions
-items_positions:
-    - Full Professor and Co-Director of the Institute of Information Systems, University of Bern<br><br>
-    - 2023 Appointment as Senior Editor at "Electronic Markets"
-    - 2022 Appointment as Associate Editor at "Digital Transformation and Society"
-    - 2020 Appointment as Senior Editor at "Internet Research"<br><br>
-    - 2022 Distinguished Member of the "Association for Information Systems (AIS)"
-label_roles: Roles in commissions and foundations
-items_roles:
-    - Member of the Digitization Commission (DigiK) of the University of Bern
-    - Member of the Research Group “Law and Digitalization” at the University of Bern
-    - Member of the Working Group “Regulatory Technologies”
-    - Chairman of the Foundation Board, Fondation Travers Borgstroem
-    - Former Secretary of the Swiss Chapter of the Association for Information Systems (CHAIS)
-    - Trustee of the Foundation of German Business (“Stiftung der Deutschen Wirtschaft”), Switzerland
+title: KI und digitale Transformation
+description: Christian Matt unterstützt Organisationen dabei, KI und digitalen Wandel in klare Entscheidungen und echte Kompetenz zu übersetzen. Beratung, Workshops, Vorträge und Weiterbildung.
+alternate_url: /en/
+alternate_lang: en
+image: /assets/images/Photos/profile.webp
+image_alt: Prof. Dr. Christian Matt
+---
+Digitale Transformation & verantwortungsvolle KI
+
+# Ich helfe Organisationen, KI und digitalen Wandel in *klare Entscheidungen und echte Kompetenz* zu übersetzen.
+
+Mit Unternehmen und dem öffentlichen Sektor: den Hype durchdringen, herausfinden, wo der Wert wirklich liegt, und von der Idee zur Umsetzung kommen. Fundiert durch State-of-the-Art Forschung.
+
+[Projekt besprechen]({{ '/consulting/' | relative_url }}) [Vortrag oder Workshop anfragen]({{ '/workshops/' | relative_url }}) [Weiterbildung anfragen]({{ '/executive-education/' | relative_url }})
+
 ---
 
-Christian Matt is Full Professor and Co-Director of the {% include links/external.html url="https://www.iwi.unibe.ch/index_ger.html" name="Institute of Information Systems"%}
-at the University of Bern. As a researcher, consultant, and expert for Digital Transformation and responsible Artificial Intelligence, 
-he is fascinated by how digital technologies lead to new opportunities and paradigm shifts for firms, public organizations, society, and individuals. 
-Bringing research and practice together, he shares his expertise in consulting, coaching, executive education, and as a keynote speaker.
+Zentrale Themen
 
-{% include accordion.html id_only1=false label1=page.label_positions items1=page.items_positions id_only2=false label2=page.label_roles items2=page.items_roles %}
+## Woran ich arbeite
+
+Drei Themen prägen meine Forschung und Beratung. Dahinter stehen Fragen, die Führungsteams derzeit tatsächlich beschäftigen.
+
+- **Strategische digitale Transformation**  
+  *Welche digitalen Investitionen zahlen wirklich auf Ihre Strategie ein, und welche nicht?*
+- **Responsible AI**  
+  *Wie nutzen Sie KI so, dass Nutzen, Vertrauen und Governance zusammenpassen?*
+- **AI Foundation Models**  
+  *Wie integrieren Sie grosse KI-Modelle sinnvoll in Prozesse, Produkte und Entscheidungen?*
+
+---
+
+Wege der Zusammenarbeit
+
+## Drei Wege, wie ich unterstütze
+
+- [**Consulting & Beratung**  
+  <span class="way-cta">Mehr erfahren</span>]({{ '/consulting/' | relative_url }})
+- [**Workshops & Vorträge**  
+  <span class="way-cta">Mehr erfahren</span>]({{ '/workshops/' | relative_url }})
+- [**Executive Education**  
+  <span class="way-cta">Mehr erfahren</span>]({{ '/executive-education/' | relative_url }})
+
+---
+
+Was die Beratung unterscheidet
+
+## Forschungstiefe, nutzbar gemacht
+
+- **Evidenz statt Hype**  
+  Fundiert in begutachteter Forschung in den führenden Journals des Feldes.
+- **Herstellerneutral**  
+  Kein Verkauf von Tools, keine Umsetzung als Upsell. Die Empfehlung dient Ihrer Organisation, nicht einer Produkt-Roadmap.
+- **Für Entscheider gemacht**  
+  Übersetzt für Gremien und Führungsteams: strukturiert, konkret und an den Entscheidungen ausgerichtet.
+
+---
+
+## Was beschäftigt Ihre Organisation gerade?
+
+[Projekt besprechen]({{ '/contact/' | relative_url }})

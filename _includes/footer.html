@@ -1,19 +1,14 @@
-
-<footer class="bg-dark text-muted footer mt-auto">
-    <div id="social-footer" class="bg-light">
-        <a href="https://www.xing.com/profile/Christian_Matt" class="link" target="_blank"><img src="/assets/images/icons/xing.png" alt="Xing" class="social-icon"></a>
-        <a href="https://www.linkedin.com/in/christianmatt/" class="link" target="_blank"><img src="/assets/images/icons/linkedin.png" alt="LinkedIn" class="social-icon"></a>
-        <a href="https://www.researchgate.net/profile/Christian-Matt" class="link" target="_blank"><img src="/assets/images/icons/researchgate.png" alt="Research Gate" class="social-icon"></a>
-        <a href="https://scholar.google.com/citations?user=HSsnJNgAAAAJ&hl=en&oi=ao" class="link" target="_blank"><img src="/assets/images/icons/scholar.png" alt="Google Scholar" class="social-icon"></a>
+{% assign nav = site.data.navigation[page.lang] %}
+<footer class="site-footer">
+  <div class="wrap">
+    <a class="logo" href="{{ nav.home.url | relative_url }}">Christian Matt</a>
+    <div class="footer-links">
+      <a href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="{{ site.scholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+      <a href="{{ site.researchgate }}" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+      <a href="{{ nav.contact.url | relative_url }}">{{ nav.contact.label }}</a>
+      <a href="{{ nav.legal.url | relative_url }}">Impressum</a>
     </div>
-    <div class="p-4">
-        <div id="author">
-            2022-<span id="year"></span> Christian Matt
-        </div>
-        <div id="footer-links">
-            <a href="/contact.html" class="footer link">Contact</a>
-            <a href="/legal.html" class="footer link">Legal Notice</a> |
-            Icons by <a href="https://icons8.com/" target="_blank" class="footer link">Icons8</a>
-        </div>
-    </div>
+    <p class="footer-legal">2022 &ndash; {{ 'now' | date: '%Y' }} Prof. Dr. Christian Matt.</p>
+  </div>
 </footer>

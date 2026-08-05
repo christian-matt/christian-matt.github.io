@@ -1,20 +1,78 @@
 ---
-layout: default
-title: Consulting & Coaching
-permalink: /consulting.html
-keywords: Consulting, Research Projects, Workshops, Digital Transformation, Digital Business, Artificial Intelligence
-description: Professional consulting, coaching and workshops on Digital Transformation, Digital Businesses, and Artificial Intelligence.
-image: consulting.webp
+layout: subpage
+lang: de
+nav_key: consulting
+permalink: /consulting/
+title: Consulting & Beratung
+description: Unabhängige Beratung zu KI, digitaler Transformation, Strategie und Umsetzung.
+alternate_url: /en/consulting/
+alternate_lang: en
+card_style: format
+sections:
+  - type: hero
+  - type: cards
+    id: formate
+  - type: tags
+    tone: surface
+  - type: cta
+---
+Consulting & Beratung
+
+# Beratung, die zu Entscheidungen führt
+
+Unabhängige Beratung an der Schnittstelle von Forschung und Praxis: Wo schafft KI in Ihrer Organisation echten Wert, wie sieht eine tragfähige digitale Strategie aus, und wie wird aus dem Plan Umsetzung. Klar, strukturiert und ohne Produkt-Agenda.
+
+[Projekt besprechen]({{ '/contact/' | relative_url }}) [Formate ansehen](#formate)
+
 ---
 
-As an expert in **Digital Transformation** and **Responsible Artificial Intelligence**, Christian Matt supports companies and public institutions in navigating technological change – strategically, ethically, and with measurable impact.
+Buchbare Formate
 
-His consulting and coaching services are tailored to decision-makers who want to move beyond buzzwords and unlock real value from digital technologies & AI. These services include:
-- (Generative) AI Potential and Implementation Assessments
-- Digital Transformation Strategy Development and Sparring
-- Digital Technology Market & Trend Analyses
-- Workshops and Executive Briefings for Boards and Leadership Teams
+## So können wir zusammenarbeiten
 
-He has advised a wide range of clients – from **large corporations**, **SMEs** and **industry associations** to **embassies** and other **public sector organizations** – always with a focus on actionable insights and long-term orientation.
+Drei Einstiegspunkte, je nach Frage und Tiefe. Jedes Format lässt sich auf Ihren Kontext zuschneiden.
 
-Whether you are exploring the use of AI, refining your digital strategy, or preparing your organization for the next wave of transformation – Christian Matt offers deep expertise, academic grounding, and practical experience to guide the way.
+- *Individuell*
+
+  ### KI-Potenzial- und Readiness-Analyse
+
+  Eine strukturierte Aussensicht auf Ihre Ausgangslage: Wo liegen die wertvollsten Anwendungsfälle, was ist technisch und organisatorisch realistisch, und welche Schritte lohnen sich zuerst.
+
+  **Ergebnis:** priorisierte Anwendungsfälle und eine belastbare Roadmap.
+
+- *Halber bis ganzer Tag, oder laufend*
+
+  ### Executive Briefing & Strategie-Sparring
+
+  Ein fokussierter Austausch mit Ihrem Führungsteam: aktuelle Entwicklungen einordnen, Annahmen prüfen, Optionen schärfen. Auf Wunsch als laufende Begleitung.
+
+  **Ergebnis:** geklärte Prioritäten und eine gemeinsame Faktenbasis.
+
+- *Projektbezogen*
+
+  ### Transformations-Begleitung
+
+  Begleitung von der Konzeption bis in die Umsetzung: als Sparringspartner für interne Teams, in Steuerungsgremien oder bei kritischen Weichenstellungen.
+
+  **Ergebnis:** getragene Entscheidungen und ein Vorhaben, das ins Laufen kommt.
+
+---
+
+Schwerpunkte
+
+## Themen, zu denen ich arbeite
+
+- Strategische digitale Transformation
+- Responsible AI
+- AI Foundation Models
+- Digitale Souveränität
+- Generative KI im Unternehmen
+- Digitale Geschäftsmodelle
+- Datenstrategie & Governance
+- KI in der öffentlichen Verwaltung
+
+---
+
+## Welche Entscheidung steht bei Ihnen an?
+
+[Projekt besprechen]({{ '/contact/' | relative_url }})

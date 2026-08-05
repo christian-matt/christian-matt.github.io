@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{% assign normalized = content | replace: '<hr>', '<hr />' %}
+{% assign sections = normalized | split: '<hr />' %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy markdown-section">{{ sections[0] }}</div>
+    <figure class="hero-figure"><img src="{{ page.image | relative_url }}" alt="{{ page.image_alt }}"></figure>
+  </div>
+</section>
+<section class="section section-topics"><div class="wrap markdown-section">{{ sections[1] }}</div></section>
+<section class="why section-ways"><div class="wrap section markdown-section">{{ sections[2] }}</div></section>
+<section class="section section-benefits"><div class="wrap markdown-section">{{ sections[3] }}</div></section>
+<section class="cta-band"><div class="wrap markdown-section">{{ sections[4] }}</div></section>

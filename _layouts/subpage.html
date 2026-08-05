@@ -1,0 +1,30 @@
+---
+layout: default
+---
+{% assign normalized = content | replace: '<hr>', '<hr />' %}
+{% assign content_sections = normalized | split: '<hr />' %}
+
+{% for section_config in page.sections %}
+  {% assign section_content = content_sections[forloop.index0] %}
+  {% case section_config.type %}
+    {% when 'hero' %}
+      <section class="subpage-hero">
+        <div class="wrap markdown-section">{{ section_content }}</div>
+      </section>
+    {% when 'contact' %}
+      <section class="subpage-section subpage-section--contact">
+        <div class="wrap split">
+          {% include contact-form.html %}
+          <div class="contact-details markdown-section">{{ section_content }}</div>
+        </div>
+      </section>
+    {% when 'cta' %}
+      <section class="subpage-cta">
+        <div class="wrap markdown-section">{{ section_content }}</div>
+      </section>
+    {% else %}
+      <section class="subpage-section subpage-section--{{ section_config.type }}{% if section_config.tone == 'surface' %} subpage-section--surface{% endif %}"{% if section_config.id %} id="{{ section_config.id }}"{% endif %}>
+        <div class="wrap markdown-section{% if section_config.type == 'legal' %} prose{% endif %}"{% if section_config.type == 'legal' and page.legal_body_lang %} lang="{{ page.legal_body_lang }}"{% endif %}>{{ section_content }}</div>
+      </section>
+  {% endcase %}
+{% endfor %}
