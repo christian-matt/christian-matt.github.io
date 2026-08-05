@@ -279,7 +279,8 @@ blockquote.pull::after{content:"\201C";color:var(--accent)}
 /* Contact details. */
 .contact-details ul{display:grid;gap:1.25rem}
 .contact-details li{color:var(--muted);font-size:.97rem}
-.contact-details li strong{display:block;color:var(--ink);font-size:1.05rem;margin-bottom:.3rem}
+.contact-details li strong{display:block;color:var(--ink);font-size:1.05rem;margin-bottom:.5rem}
+.contact-details li strong + br{display:none}
 .contact-details > p:last-child{font-size:.85rem;color:var(--muted);margin-top:1.3rem}
 
 /* CTA content from Markdown. */
