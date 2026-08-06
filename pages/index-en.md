@@ -35,19 +35,6 @@ Three topics shape my research and advisory work. Behind each one sits a questio
 
 ---
 
-Ways to work together
-
-## Three ways I support you
-
-- [**Consulting**  
-  <span class="way-cta">Learn more</span>]({{ '/en/consulting/' | relative_url }})
-- [**Workshops & talks**  
-  <span class="way-cta">Learn more</span>]({{ '/en/workshops/' | relative_url }})
-- [**Executive education**  
-  <span class="way-cta">Learn more</span>]({{ '/en/executive-education/' | relative_url }})
-
----
-
 What sets this advice apart
 
 ## Research depth, made usable

@@ -35,19 +35,6 @@ Drei Themen prägen meine Forschung und Beratung. Dahinter stehen Fragen, die F�
 
 ---
 
-Wege der Zusammenarbeit
-
-## Drei Wege, wie ich unterstütze
-
-- [**Consulting & Beratung**  
-  <span class="way-cta">Mehr erfahren</span>]({{ '/consulting/' | relative_url }})
-- [**Workshops & Vorträge**  
-  <span class="way-cta">Mehr erfahren</span>]({{ '/workshops/' | relative_url }})
-- [**Executive Education**  
-  <span class="way-cta">Mehr erfahren</span>]({{ '/executive-education/' | relative_url }})
-
----
-
 Was die Beratung unterscheidet
 
 ## Forschungstiefe, nutzbar gemacht
