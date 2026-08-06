@@ -3,7 +3,7 @@ layout: home
 lang: en
 nav_key: home
 permalink: /en/
-title: AI and digital transformation
+title: Digital transformation and responsible AI
 description: Christian Matt helps organisations translate AI and digital change into clear decisions and real capability through consulting, workshops, talks and executive education.
 alternate_url: /
 alternate_lang: de

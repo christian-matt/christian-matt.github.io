@@ -3,7 +3,7 @@ layout: home
 lang: de
 nav_key: home
 permalink: /
-title: KI und digitale Transformation
+title: Digitale Transformation und verantwortungsvolle KI
 description: Christian Matt unterstützt Organisationen dabei, KI und digitalen Wandel in klare Entscheidungen und echte Kompetenz zu übersetzen. Beratung, Workshops, Vorträge und Weiterbildung.
 alternate_url: /en/
 alternate_lang: en
