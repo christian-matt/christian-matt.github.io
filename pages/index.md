@@ -35,7 +35,7 @@ Drei Themen prÃ¤gen meine Forschung und Beratung. Dahinter stehen Fragen, die FÃ
 
 ---
 
-Was die Beratung unterscheidet
+Was die Zusammenarbeit unterscheidet
 
 ## Forschungstiefe, nutzbar gemacht
 

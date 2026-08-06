@@ -35,7 +35,7 @@ Three topics shape my research and advisory work. Behind each one sits a questio
 
 ---
 
-What sets this advice apart
+What sets the collaboration apart
 
 ## Research depth, made usable
 

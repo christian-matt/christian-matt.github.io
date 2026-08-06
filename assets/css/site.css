@@ -63,7 +63,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 /* Shared subpage structure */
 .subpage-hero{padding-block:clamp(46px,7vw,84px) clamp(8px,2vw,20px)}
 .subpage-section{padding-block:clamp(56px,8vw,92px)}
-.subpage-section--surface{background:var(--surface);border-block:1px solid var(--line)}
+.subpage-section--surface,.section-benefits{background:var(--surface);border-block:1px solid var(--line)}
 
 /* Referenzleiste */
 .proof-strip{border-block:1px solid var(--line);background:var(--surface)}
