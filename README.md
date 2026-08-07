@@ -30,7 +30,7 @@ Horizontal rules (`---`) divide Markdown content into sections. On subpages, kee
 
 ## Run locally
 
-Jekyll requires Ruby 2.7 or newer, RubyGems, GCC, and Make. Follow the official [Jekyll installation guide](https://jekyllrb.com/docs/installation/) for the setup instructions for Windows, macOS, or Linux. After installing Ruby, install Bundler if it is not already available:
+Jekyll requires Ruby 2.7 or newer. Follow the official [Jekyll installation guide](https://jekyllrb.com/docs/installation/) for the setup instructions for Windows, macOS, or Linux. After installing Ruby, install Bundler if it is not already available:
 
 ```bash
 gem install bundler
