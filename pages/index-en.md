@@ -27,11 +27,14 @@ Core topics
 Three topics shape my research and advisory work. Behind each one sits a question leadership teams are actually wrestling with.
 
 - **Strategic digital transformation**  
-  *Which digital investments genuinely serve your strategy, and which do not?*
+  *Which digital investments genuinely serve your strategy, and which do not?*  
+  <a class="topic-paper" href="https://link.springer.com/content/pdf/10.1007/s12525-025-00838-z.pdf" target="_blank" rel="noopener noreferrer"><span class="paper-tag">Article:</span> How AI and corporate culture are reshaping digital strategy</a>
 - **Responsible AI**  
-  *How do you use AI so that value, trust and governance actually fit together?*
+  *How do you use AI so that value, trust and governance actually fit together?*  
+  <a class="topic-paper" href="https://aisel.aisnet.org/jais_preprints/242/" target="_blank" rel="noopener noreferrer"><span class="paper-tag">Article:</span> How ethical guidelines turn into appropriate digital products</a>
 - **AI foundation models**  
-  *How do you integrate large AI models meaningfully into processes, products and decisions?*
+  *How do you integrate large AI models meaningfully into processes, products and decisions?*  
+  <a class="topic-paper" href="https://doi.org/10.1365/s35764-026-00604-6" target="_blank" rel="noopener noreferrer"><span class="paper-tag">Article:</span> How dependent Europe is on foundation models, and which options remain</a>
 
 ---
 

@@ -239,6 +239,11 @@ blockquote.pull::after{content:"\201C";color:var(--accent)}
 .section-topics li::before,.section-benefits li::before,.subpage-section--benefits li::before{content:"";position:absolute;top:0;left:0;width:34px;height:2px;background:var(--accent)}
 .section-topics li strong,.section-benefits li strong,.subpage-section--benefits li strong{display:block;font-size:1.08rem;line-height:1.2;margin-bottom:.5rem}
 .section-topics li em{display:block;font-family:var(--serif);font-style:italic;font-size:1.02rem;line-height:1.5;color:#3a3f46}
+.section-topics .topic-paper{display:inline-block;margin-top:.85rem;font-size:.86rem;font-weight:400;line-height:1.45;color:var(--muted);transition:color .15s ease}
+.section-topics .topic-paper:hover{color:var(--accent)}
+.section-topics .topic-paper .paper-tag{display:inline;font-size:inherit;line-height:inherit;margin:0;font-weight:600;color:var(--accent)}
+.section-topics .topic-paper::after{content:"\2197";margin-left:.3em;display:inline-block;transition:transform .15s ease}
+.section-topics .topic-paper:hover::after{transform:translate(2px,-2px)}
 .section-benefits li,.subpage-section--benefits li{color:var(--muted);font-size:.97rem}
 .section-benefits li strong,.subpage-section--benefits li strong{color:var(--ink);font-size:1.12rem;margin-bottom:0.5rem}
 .section-topics li strong + br,.section-benefits li strong + br,.subpage-section--benefits li strong + br{display:none}

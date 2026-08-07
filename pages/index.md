@@ -27,11 +27,14 @@ Zentrale Themen
 Drei Themen prägen meine Forschung und Beratung. Dahinter stehen Fragen, die Führungsteams derzeit tatsächlich beschäftigen.
 
 - **Strategische digitale Transformation**  
-  *Welche digitalen Investitionen zahlen wirklich auf Ihre Strategie ein, und welche nicht?*
+  *Welche digitalen Investitionen zahlen wirklich auf Ihre Strategie ein, und welche nicht?*  
+  <a class="topic-paper" href="https://link.springer.com/content/pdf/10.1007/s12525-025-00838-z.pdf" target="_blank" rel="noopener noreferrer"><span class="paper-tag">Artikel:</span> Wie KI und Unternehmenskultur die Digitalstrategie verändern</a>
 - **Responsible AI**  
-  *Wie nutzen Sie KI so, dass Nutzen, Vertrauen und Governance zusammenpassen?*
+  *Wie nutzen Sie KI so, dass Nutzen, Vertrauen und Governance zusammenpassen?*  
+  <a class="topic-paper" href="https://aisel.aisnet.org/jais_preprints/242/" target="_blank" rel="noopener noreferrer"><span class="paper-tag">Artikel:</span> Wie aus Ethik-Leitlinien passende digitale Produkte werden</a>
 - **AI Foundation Models**  
-  *Wie integrieren Sie grosse KI-Modelle sinnvoll in Prozesse, Produkte und Entscheidungen?*
+  *Wie integrieren Sie grosse KI-Modelle sinnvoll in Prozesse, Produkte und Entscheidungen?*  
+  <a class="topic-paper" href="https://doi.org/10.1365/s35764-026-00604-6" target="_blank" rel="noopener noreferrer"><span class="paper-tag">Artikel:</span> Wie abhängig Europa bei KI-Modellen ist, und welche Optionen bleiben</a>
 
 ---
 
