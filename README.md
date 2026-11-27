@@ -12,6 +12,8 @@ Bilingual professional website for Prof. Dr. Christian Matt: digital transformat
 
 ## Run locally
 
+The site needs to be built and served by Jekyll to render as intended. Opening the files directly or serving them without Jekyll will not produce the proper website.
+
 Jekyll requires Ruby 2.7 or newer. Follow the official [Jekyll installation guide](https://jekyllrb.com/docs/installation/) for the setup instructions for Windows, macOS, or Linux. After installing Ruby, install Bundler if it is not already available:
 
 ```bash
