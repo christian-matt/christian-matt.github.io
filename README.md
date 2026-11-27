@@ -4,29 +4,11 @@ This repository contains the bilingual professional website of Prof. Dr. Christi
 
 ## Edit content
 
-Most content can be edited in the corresponding German or English Markdown file under `pages/`. Files ending in `-en.md` contain the English version. Keep each page's front matter at the top of the file because it defines metadata, URLs, language links, and the layout Jekyll uses to render the content.
-
-The page hierarchy is:
-
-```text
-pages/*.md
-├── layout: home
-│   └── _layouts/home.html
-│       └── _layouts/default.html
-└── layout: subpage
-    └── _layouts/subpage.html
-        └── _layouts/default.html
-            ├── _includes/head.html
-            ├── _includes/header.html
-            └── _includes/footer.html
-```
-
-- `_layouts/default.html` provides the shared HTML shell and inserts the common head, navigation, footer, stylesheet, and JavaScript.
-- `_layouts/home.html` arranges the homepage content from `pages/index.md` and `pages/index-en.md`.
-- `_layouts/subpage.html` arranges all regular content pages. It also inserts `_includes/contact-form.html` on the contact page.
-- `_includes/` contains reusable fragments shared across pages. Navigation and contact-form text are read from the language-specific files in `_data/`.
-
-Horizontal rules (`---`) divide Markdown content into sections. On subpages, keep those sections in the same order as the `sections` entries in the page's front matter. Repeating content such as topic cards is usually represented by ordinary Markdown lists.
+- **Page text:** Edit the matching Markdown file in `pages/`. English pages end in `-en.md` (for example, `index-en.md`).
+- **Page settings:** Keep the YAML front matter at the top; it controls the URL, language link, layout, and—on subpages—the section order.
+- **Sections:** Separate subpage sections with `---` and keep them in the order listed in the front matter.
+- **Shared labels:** Edit navigation in `_data/navigation.yml` and contact-form text in `_data/contact.yml`; both have `de` and `en` entries.
+- **Page structure:** For layout or reusable-fragment changes, see `_layouts/` and `_includes/`.
 
 ## Run locally
 
