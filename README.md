@@ -1,6 +1,6 @@
 # Christian Matt — Jekyll website
 
-This repository contains the bilingual professional website of Prof. Dr. Christian Matt. It presents his work on digital transformation and responsible AI, together with his consulting, workshops, talks, executive education, and contact information. The site is built with Jekyll and published through GitHub Pages.
+Bilingual professional website for Prof. Dr. Christian Matt: digital transformation, responsible AI, consulting, workshops, talks, and executive education. Built with Jekyll and published on GitHub Pages.
 
 ## Edit content
 
